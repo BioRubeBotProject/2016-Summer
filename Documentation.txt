@@ -34,6 +34,9 @@ Set up source control on my personal computer
 7. Click the drop down box and select 'git'
 8. Paste your path and accept the settings
 
+This allows you to pull and push from the Unreal Editor.
+Clicking the Source Control button and then selecting 'Submit to source control' will push
+
 Note: The project folder must be pulled from github from the github desktop application.
 Open the project from your GitHub repository folder. Should be /GitHub/2016-Summer
 
