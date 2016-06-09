@@ -17,4 +17,25 @@ Locking camera to only show the specific view of the level
 Clean up background textures
 Analyze the project in Unity and how it ties things together
 
-~Reupload in latest version
+-------------------------------------------------------------------------------------------------
+
+John Garth - June 9
+
+What I've done:
+Reuploaded project in lastest version of Unreal
+Set up source control on my personal computer
+-- You have to set this up on yours too --
+1. Install GitHub and Git (https://git-scm.com/downloads)
+2. Locate your Git folder and find 'git.exe' (should be ~\Git\bin\git.exe)
+3. Copy your path (C:\Program Files (x86)\Git\bin\git.exe)
+4. Open the project
+5. Click Source Control between the 'Save' and 'Content' button on the top toolbar
+6. Click 'Connect to Source Control'
+7. Click the drop down box and select 'git'
+8. Paste your path and accept the settings
+
+Note: The project folder must be pulled from github from the github desktop application.
+Open the project from your GitHub repository folder. Should be /GitHub/2016-Summer
+
+What needs to be done:
+See above.
