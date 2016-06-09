@@ -1,0 +1,18 @@
+John Garth - June 8
+
+What I've done:
+Set up 2D environment
+Imported all importable assets (to my knowledge)
+Converted Textures to Sprites
+Organized Textures/Sprites into folder (Content > Assets > BioRube_Assets)
+Rough outline of home screen and first level screen
+Scaled backgrounds to 1000x1000
+Separated both screens into different levels
+
+What needs to be done:
+Scaling - Conversion from units in unity to unreal
+Understanding how we would implement the conversion from C# to C++
+Understanding click events
+Locking camera to only show the specific view of the level
+Clean up background textures
+Analyze the project in Unity and how it ties things together
