@@ -40,5 +40,11 @@ will set up the files for committing in GitHub.
 Note: The project folder must be pulled from github from the github desktop application.
 Open the project from your GitHub repository folder. Should be /GitHub/2016-Summer
 
-What needs to be done:
-See above.
+
+-------------------------------------------------------------------------------------------------
+
+John Garth - June 12
+
+What I've done:
+Implemented click play button transition to first level scene
+
