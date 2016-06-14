@@ -1,3 +1,15 @@
+﻿John Garth - June 13
+
+What I've Done:
+Added 'pop' sound
+
+*Note - Could not modify the locations where the cells 'popped' up.
+It may have to do with the source control. I could not figure out how to
+"check in" items so that others can modify them like the documentation says you can.
+https://docs.unrealengine.com/latest/INT/Engine/UI/SourceControl/#sourcecontrolactions
+
+____________________________________________________________________________________________
+
 Aidan Sullivan - June 13
 
 What I’ve Done:
