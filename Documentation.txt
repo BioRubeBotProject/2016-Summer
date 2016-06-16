@@ -1,12 +1,41 @@
-﻿John Garth - June 13
+John Garth - June 16
+
+What I've Done:
+The best eyeball scaling and placement of cells I could. Fixed the order of the
+cells popping up.
+
+What Needs to be Done:
+Fix camera ASAP, the precision scaling (converting metrics from Unity)
+Hover over 'New Game' and 'Continue' needs to change the color green.
+Information box
+Blinking eyes
+
+___________________________________________________________________________________________
+
+John Garth - June 15
+
+What I've Done:
+Added a new Big Cell actor / widget to fix a problem with the layering of the cells.
+Still haven't implemented this into the scene, but it is on the side. The biggest
+problem I have so far is the camera view. I cannot get the aspect ratio of the view
+port to match the square resolution that the game in Unity is. The parts of the cells
+that should be cut out from falling off the screen is still visible due to the 'black bars'
+or 'letter box' on the sides. Once this problem is solved the precision scaling of the scene
+can begin.
+
+_____________________________________________________________________________________________
+
+John Garth - June 13
 
 What I've Done:
 Added 'pop' sound
 
-*Note - Could not modify the locations where the cells 'popped' up.
-It may have to do with the source control. I could not figure out how to
-"check in" items so that others can modify them like the documentation says you can.
-https://docs.unrealengine.com/latest/INT/Engine/UI/SourceControl/#sourcecontrolactions
+//*Note - Could not modify the locations where the cells 'popped' up.
+//It may have to do with the source control. I could not figure out how to
+//"check in" items so that others can modify them like the documentation says you can.
+//https://docs.unrealengine.com/latest/INT/Engine/UI/SourceControl/#sourcecontrolactions
+~*Fixed*~
+You modify the positions of the cell actors through the widget blueprint.
 
 ____________________________________________________________________________________________
 
