@@ -284,3 +284,28 @@ DerivedDataCache/*
 *.swo
 .ctrlp_cache/
 
+Engine/Binaries/
+Engine/DerivedDataCache/
+Engine/Intermediate/
+Engine/Plugins/*/*/Binaries/
+Engine/Plugins/*/*/Intermediate/
+Engine/Programs/UnrealHeaderTool/
+Engine/Programs/UnrealPak/
+Engine/Saved/
+Engine/Shaders/Binaries/
+Engine/Source/*/*/*/obj/
+Engine/Source/*/*/obj/
+Engine/Source/*/obj/
+
+UE4.opensdf
+UE4.sdf
+UE4.sln
+UE4.suo
+UE4.*.suo
+
+BIO_RUBE_V1 4.12/Binaries/
+BIO_RUBE_V1 4.12/DerivedDataCache/
+BIO_RUBE_V1 4.12/Intermediate/
+BIO_RUBE_V1 4.12/Saved/
+BIO_RUBE_V1 4.12/WindowsNoEditor/
+BIO_RUBE_V1 4.12/Build
