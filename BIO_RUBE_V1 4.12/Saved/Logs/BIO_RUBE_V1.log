@@ -175,4 +175,517 @@ LogInit: Object subsystem initialized
 [2016.06.21-00.15.28:783][ 88]LogRenderer: Reallocating scene render targets to support 1088x924 (Frame:5).
 [2016.06.21-00.15.28:821][ 88]LogAssetRegistry: Asset discovery search completed in 92.8685 seconds
 [2016.06.21-00.15.28:833][ 88]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.011994 seconds (found 0 objects)
-[2016.06.21-00.15.28:
+[2016.06.21-00.15.28:833][ 88]LogCollectionManager: Fixed up redirectors for 1 collections in 0.012049 seconds (updated 0 objects)
+[2016.06.21-00.15.46:198][982]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2016.06.21-00.15.51:997][637]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2016.06.21-00.16.36:033][ 93]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2016.06.21-00.17.20:478][996]SourceControl: Info On branch master
+[2016.06.21-00.17.20:478][996]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.06.21-00.17.20:478][996]SourceControl: Info Changes not staged for commit:
+[2016.06.21-00.17.20:478][996]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.06.21-00.17.20:478][996]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.06.21-00.17.20:478][996]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Intermediate/CachedAssetRegistry.bin
+[2016.06.21-00.17.20:478][996]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Intermediate/Config/CoalescedSourceConfigs/EditorPerProjectUserSettings.ini
+[2016.06.21-00.17.20:478][996]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.06.21-00.17.20:478][996]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Config/Windows/Editor.ini
+[2016.06.21-00.17.20:478][996]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Logs/BIO_RUBE_V1.log
+[2016.06.21-00.17.20:478][996]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.06.21-00.21.14:934][705]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.21.24:714][648]Cmd: EDIT COPY
+[2016.06.21-00.21.29:510][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuScreen" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.21.29:610][883]LogSavePackage: Save=68.41ms
+[2016.06.21-00.21.29:610][883]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreen067CD2504355116F411FAEA9C7264C0B.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap'
+[2016.06.21-00.21.29:627][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap
+[2016.06.21-00.21.29:802][883]LogFileHelpers: Saving map 'MenuScreen' took 0.367
+[2016.06.21-00.21.29:841][883]Cmd: MAP LOAD FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.21-00.21.29:842][883]LightingResults: New page: Lighting Build
+[2016.06.21-00.21.29:842][883]LoadErrors: New page: Loading map: MenuScreen.umap
+[2016.06.21-00.21.29:865][883]MapCheck: New page: Map Check
+[2016.06.21-00.21.29:865][883]LightingResults: New page: Lighting Build
+[2016.06.21-00.21.29:985][883]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.21-00.21.29:985][883]LogAIModule: Creating AISystem for world MenuScreen
+[2016.06.21-00.21.30:083][883]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.21-00.21.30:149][883]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.49ms to complete.
+[2016.06.21-00.21.30:149][883]LogFileHelpers: Loading map 'MenuScreen' took 0.315
+[2016.06.21-00.21.36:256][594]Cmd: EDIT PASTE
+[2016.06.21-00.22.22:763][933]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.24.43:646][878]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite)
+[2016.06.21-00.24.43:672][878]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2016.06.21-00.24.54:454][ 74]LogStats: FPlatformStackWalk::StackWalkAndDump -  8.715 s
+[2016.06.21-00.24.54:454][ 74]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: !FoundComp.IsStale() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Editor\DetailCustomizations\Private\BodyInstanceCustomization.cpp] [Line: 32]
+BodyInstance has no owner and the map data is stale
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:183]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:327]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:451]
+UE4Editor-DetailCustomizations.dll!FBodyInstanceCustomization::GetDefaultCollisionProvider() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\detailcustomizations\private\bodyinstancecustomization.cpp:32]
+UE4Editor-DetailCustomizations.dll!FBodyInstanceCustomization::AreAllCollisionUsingDefault() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\detailcustomizations\private\bodyinstancecustomization.cpp:971]
+UE4Editor-DetailCustomizations.dll!FBodyInstanceCustomization::ShouldShowCustomCollisionSetup() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\detailcustomizations\private\bodyinstancecustomization.cpp:1009]
+UE4Editor-DetailCustomizations.dll!TBaseSPMethodDelegateInstance<1,FBodyInstanceCustomization,0,EVisibility __cdecl(void)>::Execute() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:321]
+UE4Editor-PropertyEditor.dll!TAttribute<EVisibility>::Get() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\public\misc\attribute.h:135]
+UE4Editor-PropertyEditor.dll!FDetailItemNode::GetVisibility() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\propertyeditor\private\detailitemnode.cpp:274]
+UE4Editor-PropertyEditor.dll!FDetailItemNode::GetChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\propertyeditor\private\detailitemnode.cpp:198]
+UE4Editor-PropertyEditor.dll!SDetailsViewBase::SetNodeExpansionState() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\propertyeditor\private\sdetailsviewbase.cpp:55]
+UE4Editor-PropertyEditor.dll!SDetailsViewBase::OnItemExpansionChanged() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\propertyeditor\private\sdetailsviewbase.cpp:79]
+UE4Editor-PropertyEditor.dll!TBaseSPMethodDelegateInstance<0,SDetailsView,0,TTypeWrapper<void> __cdecl(TSharedRef<IDetailTreeNode,0>,bool)>::Execute() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:321]
+UE4Editor-PropertyEditor.dll!TBaseSPMethodDelegateInstance<0,SDetailsView,0,void __cdecl(TSharedRef<IDetailTreeNode,0>,bool)>::ExecuteIfSafe() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:428]
+UE4Editor-PropertyEditor.dll!TBaseDelegate<void,TSharedRef<IDetailTreeNode,0>,bool>::ExecuteIfBound() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:608]
+UE4Editor-PropertyEditor.dll!STreeView<TSharedRef<IDetailTreeNode,0> >::Private_SetItemExpansion() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\public\widgets\views\streeview.h:307]
+UE4Editor-PropertyEditor.dll!SDetailsViewBase::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\propertyeditor\private\sdetailsviewbase.cpp:805]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:657]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:44]
+UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:19]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:44]
+UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:166]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:44]
+UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:19]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:25]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-Slate.dll!SBox::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\widgets\layout\sbox.cpp:171]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:25]
+UE4Editor-Slate.dll!SBorder::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:90]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:100]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:44]
+UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:19]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:25]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:44]
+UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:166]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:25]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:44]
+UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:166]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:100]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:25]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:44]
+UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:19]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:25]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:25]
+UE4Editor-Slate.dll!SBorder::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:90]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:100]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:44]
+UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:19]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:25]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:44]
+UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:166]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:100]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:25]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:44]
+UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:19]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:44]
+UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:19]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:100]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:25]
+UE4Editor-SlateCore.dll!SWindow::OnPaint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1761]
+UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:660]
+UE4Editor-Slate.dll!FSlateApplication::DrawWindowAndChildren() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1008]
+UE4Editor-Slate.dll!FSlateApplication::PrivateDrawWindows() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1237]
+UE4Editor-Slate.dll!FSlateApplication::DrawWindows() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:969]
+UE4Editor-Slate.dll!FSlateApplication::TickApplication() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1558]
+UE4Editor-Slate.dll!FSlateApplication::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1350]
+UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2810]
+UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\launch.cpp:148]
+UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+KERNEL32.DLL
+ntdll.dll
+
+[2016.06.21-00.24.54:464][ 74]LogStats:                SubmitErrorReport -  0.010 s
+[2016.06.21-00.25.01:781][ 74]LogStats:                    SendNewReport -  7.318 s
+[2016.06.21-00.25.01:782][ 74]LogStats:             FDebug::EnsureFailed - 16.049 s
+[2016.06.21-00.25.03:537][ 75]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.532 s
+[2016.06.21-00.25.03:538][ 75]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: TabBeingDraggedPtr.IsValid() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Slate\Private\Framework\Docking\SDockingTabWell.cpp] [Line: 374]
+
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:183]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:327]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:451]
+UE4Editor-Slate.dll!SDockingTabWell::OnDrop() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\framework\docking\sdockingtabwell.cpp:374]
+UE4Editor-Slate.dll!<lambda_d21373bc5354aa11b893894bcf47e418>::operator()() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4630]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FPointerEvent,<lambda_d21373bc5354aa11b893894bcf47e418> >() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:215]
+UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4621]
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5041]
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5021]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1507]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1847]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:742]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:664]
+USER32.dll
+USER32.dll
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:903]
+UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2729]
+UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\launch.cpp:148]
+UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.06.21-00.25.03:538][ 75]LogStats:                SubmitErrorReport -  0.000 s
+[2016.06.21-00.25.04:317][ 75]LogStats:                    SendNewReport -  0.779 s
+[2016.06.21-00.25.04:317][ 75]LogStats:             FDebug::EnsureFailed -  2.311 s
+[2016.06.21-00.25.50:758][164]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.25.58:908][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuScreen" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.25.58:976][110]LogSavePackage: Save=16.61ms
+[2016.06.21-00.25.58:976][110]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreen4C9B40F84A3E35E79604A6B58E89FE92.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap'
+[2016.06.21-00.25.58:981][110]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap
+[2016.06.21-00.26.05:792][839]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite)
+[2016.06.21-00.26.06:153][871]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (buttonback_Sprite)
+[2016.06.21-00.26.11:012][340]Cmd: EDIT COPY
+[2016.06.21-00.26.11:651][415]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.26.13:338][608]Cmd: EDIT PASTE
+[2016.06.21-00.26.15:800][893]LogEditorViewport: Clicking Background
+[2016.06.21-00.26.16:190][936]Cmd: EDIT PASTE
+[2016.06.21-00.26.21:293][520]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite2)
+[2016.06.21-00.26.34:397][ 12]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite3)
+[2016.06.21-00.26.40:745][738]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite)
+[2016.06.21-00.26.46:174][364]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite3)
+[2016.06.21-00.26.52:849][128]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite2)
+[2016.06.21-00.26.54:771][349]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.26.55:817][468]Cmd: EDIT PASTE
+[2016.06.21-00.26.59:457][881]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.27.00:156][958]Cmd: EDIT PASTE
+[2016.06.21-00.27.14:337][590]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite4)
+[2016.06.21-00.27.18:949][124]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite5)
+[2016.06.21-00.27.19:367][165]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.27.20:212][260]Cmd: EDIT PASTE
+[2016.06.21-00.27.32:063][585]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite5)
+[2016.06.21-00.27.34:382][849]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite4)
+[2016.06.21-00.27.54:157][ 36]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.21-00.27.57:741][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuScreen" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.27.57:776][ 36]LogSavePackage: Save=18.76ms
+[2016.06.21-00.27.57:776][ 36]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreenFAD48A164984BE46AEB0319AF128493E.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap'
+[2016.06.21-00.27.57:780][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap
+[2016.06.21-00.27.57:825][ 36]LogFileHelpers: Saving map 'MenuScreen' took 0.149
+[2016.06.21-00.27.57:826][ 36]Cmd: MAP LOAD FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.21-00.27.57:826][ 36]LightingResults: New page: Lighting Build
+[2016.06.21-00.27.57:827][ 36]LoadErrors: New page: Loading map: HomeMenu.umap
+[2016.06.21-00.27.57:828][ 36]MapCheck: New page: Map Check
+[2016.06.21-00.27.57:828][ 36]LightingResults: New page: Lighting Build
+[2016.06.21-00.27.57:894][ 36]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.21-00.27.57:938][ 36]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.21-00.27.58:001][ 36]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.493ms to complete.
+[2016.06.21-00.27.58:001][ 36]LogFileHelpers: Loading map 'HomeMenu' took 0.176
+[2016.06.21-00.27.59:500][209]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BioLogo7_Sprite2)
+[2016.06.21-00.28.00:984][380]Cmd: EDIT COPY
+[2016.06.21-00.28.06:360][992]LogAIModule: Creating AISystem for world MenuScreen
+[2016.06.21-00.28.06:380][992]Cmd: MAP LOAD FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.21-00.28.06:380][992]LightingResults: New page: Lighting Build
+[2016.06.21-00.28.06:381][992]LoadErrors: New page: Loading map: MenuScreen.umap
+[2016.06.21-00.28.06:382][992]MapCheck: New page: Map Check
+[2016.06.21-00.28.06:382][992]LightingResults: New page: Lighting Build
+[2016.06.21-00.28.06:452][992]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.21-00.28.06:509][992]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.21-00.28.06:571][992]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.5ms to complete.
+[2016.06.21-00.28.06:572][992]LogFileHelpers: Loading map 'MenuScreen' took 0.193
+[2016.06.21-00.28.07:742][128]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.28.09:267][304]Cmd: EDIT PASTE
+[2016.06.21-00.28.11:248][531]LogEditorViewport: Clicking Background
+[2016.06.21-00.29.40:610][752]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BioLogo7_Sprite2)
+[2016.06.21-00.29.48:462][616]LogEditorViewport: Clicking Background
+[2016.06.21-00.29.51:967][ 33]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BioLogo7_Sprite2)
+[2016.06.21-00.29.54:335][299]LogEditorViewport: Clicking Background
+[2016.06.21-00.30.09:682][ 88]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite4)
+[2016.06.21-00.30.10:942][232]Cmd: EDIT COPY
+[2016.06.21-00.30.11:747][323]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.30.13:091][474]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.30.13:817][558]Cmd: EDIT PASTE
+[2016.06.21-00.30.16:915][901]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.30.17:460][960]Cmd: EDIT PASTE
+[2016.06.21-00.30.25:242][826]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite4)
+[2016.06.21-00.30.26:418][959]Cmd: EDIT PASTE
+[2016.06.21-00.30.31:796][550]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite9)
+[2016.06.21-00.31.03:269][262]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite8)
+[2016.06.21-00.31.06:692][651]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.31.07:263][710]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite7)
+[2016.06.21-00.31.12:397][297]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite9)
+[2016.06.21-00.31.34:680][907]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite8)
+[2016.06.21-00.31.36:596][120]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite9)
+[2016.06.21-00.31.39:084][392]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.31.39:554][439]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite8)
+[2016.06.21-00.31.39:636][441]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2016.06.21-00.31.42:014][706]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite7)
+[2016.06.21-00.31.46:374][201]LogEditorViewport: Clicking Background
+[2016.06.21-00.31.53:254][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuScreen" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.31.53:295][994]LogSavePackage: Save=20.41ms
+[2016.06.21-00.31.53:295][994]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreenD030C84C4CA5AACAF75A4A9C926EBDE6.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap'
+[2016.06.21-00.31.53:299][994]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap
+[2016.06.21-00.31.53:345][994]LogFileHelpers: Saving map 'MenuScreen' took 0.156
+[2016.06.21-00.32.20:233][196]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.21-00.32.20:252][196]Cmd: MAP LOAD FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.21-00.32.20:252][196]LightingResults: New page: Lighting Build
+[2016.06.21-00.32.20:253][196]LoadErrors: New page: Loading map: HomeMenu.umap
+[2016.06.21-00.32.20:253][196]MapCheck: New page: Map Check
+[2016.06.21-00.32.20:253][196]LightingResults: New page: Lighting Build
+[2016.06.21-00.32.20:340][196]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.21-00.32.20:386][196]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.21-00.32.20:449][196]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.811ms to complete.
+[2016.06.21-00.32.20:450][196]LogFileHelpers: Loading map 'HomeMenu' took 0.200
+[2016.06.21-00.32.25:083][743]LogAIModule: Creating AISystem for world MenuScreen
+[2016.06.21-00.32.25:099][743]Cmd: MAP LOAD FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.21-00.32.25:099][743]LightingResults: New page: Lighting Build
+[2016.06.21-00.32.25:100][743]LoadErrors: New page: Loading map: MenuScreen.umap
+[2016.06.21-00.32.25:101][743]MapCheck: New page: Map Check
+[2016.06.21-00.32.25:101][743]LightingResults: New page: Lighting Build
+[2016.06.21-00.32.25:196][743]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.21-00.32.25:241][743]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.21-00.32.25:308][743]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.31ms to complete.
+[2016.06.21-00.32.25:309][743]LogFileHelpers: Loading map 'MenuScreen' took 0.210
+[2016.06.21-00.33.24:798][710]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (cell5_Sprite)
+[2016.06.21-00.33.46:570][213]LogTexture:Display: Building textures: point_left (BGRA8)
+[2016.06.21-00.33.48:132][361]LogMaterial: Missing cached shader map for material point_left_Mat, compiling. 
+[2016.06.21-00.34.01:292][694]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.34.16:909][527]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BioLogo7_Sprite2)
+[2016.06.21-00.34.24:462][386]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BioLogo7_Sprite2)
+[2016.06.21-00.34.25:896][553]Cmd: TRANSACTION UNDO
+[2016.06.21-00.34.25:910][553]LogEditorTransaction: Undo Clicking on Actors
+[2016.06.21-00.34.27:292][685]Cmd: TRANSACTION UNDO
+[2016.06.21-00.34.27:292][685]LogEditorTransaction: Undo Move Actors
+[2016.06.21-00.34.28:003][763]Cmd: TRANSACTION UNDO
+[2016.06.21-00.34.28:003][763]LogEditorTransaction: Undo Clicking on Actors
+[2016.06.21-00.34.28:574][824]Cmd: TRANSACTION UNDO
+[2016.06.21-00.34.28:574][824]LogEditorTransaction: Undo Clicking on Actors
+[2016.06.21-00.34.29:188][889]Cmd: TRANSACTION UNDO
+[2016.06.21-00.34.29:188][889]LogEditorTransaction: Undo Move Actors
+[2016.06.21-00.34.29:771][951]Cmd: TRANSACTION UNDO
+[2016.06.21-00.34.29:772][951]LogEditorTransaction: Undo Marquee Select
+[2016.06.21-00.34.30:366][ 14]Cmd: TRANSACTION UNDO
+[2016.06.21-00.34.30:366][ 14]LogEditorTransaction: Undo Marquee Select
+[2016.06.21-00.34.31:971][194]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BioLogo7_Sprite2)
+[2016.06.21-00.34.47:838][940]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2016.06.21-00.34.47:851][940]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2016.06.21-00.34.54:840][757]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.21-00.34.57:691][757]LogSavePackage: Save=37.71ms
+[2016.06.21-00.34.57:691][757]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/point_left_MatC55039C14C50DF0C696BCE8E05BD20B6.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Assets/BioRube_Assets/Cells/point_left_Mat.uasset'
+[2016.06.21-00.34.57:696][757]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Assets/BioRube_Assets/Cells/point_left_Mat.uasset
+[2016.06.21-00.34.57:926][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuScreen" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.34.57:963][757]LogSavePackage: Save=20.10ms
+[2016.06.21-00.34.57:964][757]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreen909662564188DA58F8996D8D9D3D32D5.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap'
+[2016.06.21-00.34.57:968][757]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap
+[2016.06.21-00.34.58:013][757]LogFileHelpers: Saving map 'MenuScreen' took 0.152
+[2016.06.21-00.34.58:014][757]Cmd: MAP LOAD FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.21-00.34.58:014][757]LightingResults: New page: Lighting Build
+[2016.06.21-00.34.58:015][757]LoadErrors: New page: Loading map: HomeMenu.umap
+[2016.06.21-00.34.58:015][757]MapCheck: New page: Map Check
+[2016.06.21-00.34.58:015][757]LightingResults: New page: Lighting Build
+[2016.06.21-00.34.58:130][757]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.21-00.34.58:177][757]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.21-00.34.58:240][757]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.934ms to complete.
+[2016.06.21-00.34.58:240][757]LogFileHelpers: Loading map 'HomeMenu' took 0.227
+[2016.06.21-00.34.59:607][915]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BioLogo7_Sprite2)
+[2016.06.21-00.35.00:498][ 15]Cmd: EDIT COPY
+[2016.06.21-00.35.05:710][616]LogAIModule: Creating AISystem for world MenuScreen
+[2016.06.21-00.35.05:726][616]Cmd: MAP LOAD FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.21-00.35.05:726][616]LightingResults: New page: Lighting Build
+[2016.06.21-00.35.05:727][616]LoadErrors: New page: Loading map: MenuScreen.umap
+[2016.06.21-00.35.05:728][616]MapCheck: New page: Map Check
+[2016.06.21-00.35.05:728][616]LightingResults: New page: Lighting Build
+[2016.06.21-00.35.05:848][616]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.21-00.35.05:893][616]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.21-00.35.05:957][616]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.142ms to complete.
+[2016.06.21-00.35.05:958][616]LogFileHelpers: Loading map 'MenuScreen' took 0.232
+[2016.06.21-00.35.06:842][717]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.35.07:536][793]Cmd: EDIT PASTE
+[2016.06.21-00.35.20:586][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuScreen" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.35.20:630][275]LogSavePackage: Save=27.68ms
+[2016.06.21-00.35.20:630][275]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreenFF4123B240ADE406CBFCBA8E4DD381D3.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap'
+[2016.06.21-00.35.20:634][275]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap
+[2016.06.21-00.35.28:503][136]LogEditorViewport: Clicking Background
+[2016.06.21-00.36.50:158][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuScreen" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.36.50:197][612]LogSavePackage: Save=21.81ms
+[2016.06.21-00.36.50:198][612]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreen65A618784FD6EB384DCAB29EE7A9C9F1.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap'
+[2016.06.21-00.36.50:202][612]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap
+[2016.06.21-00.36.57:966][490]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.36.59:205][627]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (point_left_Sprite)
+[2016.06.21-00.36.59:979][710]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (cell5_Sprite)
+[2016.06.21-00.37.11:958][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuScreen" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.37.12:000][ 73]LogSavePackage: Save=21.45ms
+[2016.06.21-00.37.12:000][ 73]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreenF5FD17B94845243851826BBD45F63D45.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap'
+[2016.06.21-00.37.12:003][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap
+[2016.06.21-00.37.19:144][867]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (point_left_Sprite)
+[2016.06.21-00.37.25:977][621]LogEditorViewport: Clicking Background
+[2016.06.21-00.37.29:555][ 37]LogEditorViewport: Clicking Background
+[2016.06.21-00.37.45:037][843]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (point_left_Sprite)
+[2016.06.21-00.38.09:203][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuScreen" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.38.09:241][528]LogSavePackage: Save=21.18ms
+[2016.06.21-00.38.09:241][528]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreen24E0B3EC48B902DC76D4D28C338CD8D1.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap'
+[2016.06.21-00.38.09:246][528]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap
+[2016.06.21-00.38.10:304][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuScreen" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.38.10:341][632]LogSavePackage: Save=20.83ms
+[2016.06.21-00.38.10:341][632]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreen1700736B40A3867332D21A82088EC94B.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap'
+[2016.06.21-00.38.10:343][632]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap
+[2016.06.21-00.38.22:016][936]LogEditorViewport: Clicking Background
+[2016.06.21-00.38.25:025][293]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BioLogo7_Sprite2)
+[2016.06.21-00.38.27:521][573]LogEditorViewport: Clicking Background
+[2016.06.21-00.38.40:929][765]LogSavePackage: Save=22.73ms
+[2016.06.21-00.38.40:929][765]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreenEB8E71994D2FB4479CEB649E5D831CC0.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Maps/MenuScreen.umap'
+[2016.06.21-00.38.40:930][765]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Maps/MenuScreen.umap
+[2016.06.21-00.38.41:129][765]LogFileHelpers: Saving map 'MenuScreen' took 1.146
+[2016.06.21-00.38.47:169][455]SourceControl:Error: Error fatal: Not a git repository: 'C:/Program Files (x86)/Epic Games/4.12/Engine/Content/.git'
+[2016.06.21-00.38.47:170][455]EditorErrors:Warning: Warning Failed checking source control status!
+[2016.06.21-00.38.53:025][105]LogSavePackage: Save=15.55ms
+[2016.06.21-00.38.53:025][105]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/point_left_Sprite56C487364328E616EFFB7A9E3E5A7E7C.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Assets/BioRube_Assets/Cells/point_left_Sprite.uasset'
+[2016.06.21-00.38.53:028][105]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Assets/BioRube_Assets/Cells/point_left_Sprite.uasset
+[2016.06.21-00.38.57:745][645]SourceControl:Error: Error fatal: Not a git repository: 'C:/Program Files (x86)/Epic Games/4.12/Engine/Content/.git'
+[2016.06.21-00.38.57:745][645]EditorErrors:Warning: Warning Failed checking source control status!
+[2016.06.21-00.45.39:489][ 80]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.21-00.45.39:510][ 80]Cmd: MAP LOAD FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.21-00.45.39:510][ 80]LightingResults: New page: Lighting Build
+[2016.06.21-00.45.39:511][ 80]LoadErrors: New page: Loading map: HomeMenu.umap
+[2016.06.21-00.45.39:511][ 80]MapCheck: New page: Map Check
+[2016.06.21-00.45.39:511][ 80]LightingResults: New page: Lighting Build
+[2016.06.21-00.45.39:645][ 80]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.21-00.45.39:715][ 80]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.21-00.45.39:856][ 80]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 141.182ms to complete.
+[2016.06.21-00.45.39:857][ 80]LogFileHelpers: Loading map 'HomeMenu' took 0.348
+[2016.06.21-00.45.56:875][ 89]LogEditorViewport: Clicking Background
+[2016.06.21-00.45.57:579][170]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
+[2016.06.21-00.45.58:006][214]LogEditorViewport: Clicking on Actor (LMB): play_new_1_Sprite_Blueprint_C (play_new_1_Sprite_Blueprint)
+[2016.06.21-00.46.00:692][371]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0026 seconds. Added 111 classes and 0 folders.
+[2016.06.21-00.46.51:092][293]LogEditorViewport: Clicking Background
+[2016.06.21-00.46.51:809][369]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (play_cont_1_Sprite)
+[2016.06.21-00.46.52:467][438]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (play_cont_1_Sprite)
+[2016.06.21-00.47.10:918][203]LogEditorViewport: Clicking Background
+[2016.06.21-00.47.14:056][510]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (play_cont_1_Sprite)
+[2016.06.21-00.47.14:139][513]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2016.06.21-00.47.14:821][588]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2016.06.21-00.47.14:941][596]LogEditorViewport: Clicking on Actor (double click): PaperSpriteActor (play_cont_1_Sprite)
+[2016.06.21-00.47.15:506][656]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (play_cont_1_Sprite)
+[2016.06.21-00.47.15:747][677]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (play_cont_1_Sprite)
+[2016.06.21-00.47.43:409][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/1stFaceCharcterBP.1stFaceCharcterBP:EventGraph.K2Node_Event_3 or K2Node_Event /Game/2ndFaceCharcterBP.2ndFaceCharcterBP:EventGraph.K2Node_Event_3
+[2016.06.21-00.47.43:409][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/1stFaceCharcterBP.1stFaceCharcterBP:EventGraph.K2Node_Event_3 or K2Node_Event /Game/3rdFaceCharcterBP.3rdFaceCharcterBP:EventGraph.K2Node_Event_3
+[2016.06.21-00.47.43:409][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/1stFaceCharcterBP.1stFaceCharcterBP:EventGraph.K2Node_Event_3 or K2Node_Event /Game/4thFaceCharcterBP.4thFaceCharcterBP:EventGraph.K2Node_Event_3
+[2016.06.21-00.47.43:409][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/1stFaceCharcterBP.1stFaceCharcterBP:EventGraph.K2Node_Event_3 or K2Node_Event /Game/bigCellbp.bigCellbp:EventGraph.K2Node_Event_3
+[2016.06.21-00.47.43:409][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/1stFaceCharcterBP.1stFaceCharcterBP:EventGraph.K2Node_Event_3 or K2Node_Event /Game/play_new_1_Sprite_Blueprint.play_new_1_Sprite_Blueprint:EventGraph.K2Node_Event_3
+[2016.06.21-00.47.43:409][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/1stFaceCharcterBP.1stFaceCharcterBP:EventGraph.K2Node_Event_3 or K2Node_Event /Engine/Transient.PROTO_BP_AnimBlueprint_0:EventGraph.K2Node_Event_3
+[2016.06.21-00.47.43:409][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/play_new_1_Sprite_Blueprint.play_new_1_Sprite_Blueprint:EventGraph.K2Node_Event_3.EdGraphPin_61) from referencer (EdGraphPin /Game/HomeMenu.HomeMenu:PersistentLevel.HomeMenu.EventGraph.K2Node_CallFunction_1.EdGraphPin_63).  Import failed...
+[2016.06.21-00.47.43:409][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_3.EdGraphPin_61''
+[2016.06.21-00.48.10:679][914]BlueprintLog: New page: Compile HomeMenu
+[2016.06.21-00.48.11:059][914]BlueprintEditorCompileResults: Info [2078.02] Compile of PersistentLevel.HomeMenu successful! [in 379 ms] (/Game/HomeMenu.HomeMenu:PersistentLevel.HomeMenu)
+[2016.06.21-00.48.22:228][796]LogEditorViewport: Clicking Background
+[2016.06.21-00.48.22:417][814]LogEditorViewport: Clicking Background
+[2016.06.21-00.48.30:250][324]LogSavePackage: Save=167.68ms
+[2016.06.21-00.48.30:250][324]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/HomeMenu231AB3C544FF6245D4170091E31858A2.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Maps/HomeMenu.umap'
+[2016.06.21-00.48.30:254][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Maps/HomeMenu.umap
+[2016.06.21-00.48.30:469][324]LogFileHelpers: Saving map 'HomeMenu' took 0.597
+[2016.06.21-00.48.32:671][524]LogSavePackage: Save=132.72ms
+[2016.06.21-00.48.32:671][524]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/UEDPCHomeMenuBE15146D427950EF8206329AB9ADE72A.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Autosaves/Game/Maps/UEDPCHomeMenu.umap'
+[2016.06.21-00.48.32:673][524]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Autosaves/Game/Maps/UEDPCHomeMenu.umap
+[2016.06.21-00.48.32:678][524]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.06.21-00.48.53:989][  6]LogEditorViewport: Clicking on Actor (LMB): CameraActor_Blueprint_C (CameraActor_Blueprint)
+[2016.06.21-00.48.56:039][204]Cmd: EDIT COPY
+[2016.06.21-00.49.02:309][926]LogAIModule: Creating AISystem for world MenuScreen
+[2016.06.21-00.49.02:351][926]Cmd: MAP LOAD FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.21-00.49.02:351][926]LightingResults: New page: Lighting Build
+[2016.06.21-00.49.02:352][926]LoadErrors: New page: Loading map: MenuScreen.umap
+[2016.06.21-00.49.02:387][926]MapCheck: New page: Map Check
+[2016.06.21-00.49.02:387][926]LightingResults: New page: Lighting Build
+[2016.06.21-00.49.02:491][926]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.21-00.49.02:538][926]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.21-00.49.03:412][926]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 873.916ms to complete.
+[2016.06.21-00.49.03:413][926]LogFileHelpers: Loading map 'MenuScreen' took 1.063
+[2016.06.21-00.49.07:033][318]LogEditorViewport: Clicking Background
+[2016.06.21-00.49.07:976][428]Cmd: EDIT PASTE
+[2016.06.21-00.49.41:569][157]LogEditorViewport: Clicking on Actor (LMB): CameraActor_Blueprint_C (CameraActor_Blueprint)
+[2016.06.21-00.50.22:639][724]LogEditorViewport: Clicking Background
+[2016.06.21-00.50.23:547][824]LogEditorViewport: Clicking on Actor (LMB): CameraActor_Blueprint_C (CameraActor_Blueprint)
+[2016.06.21-00.50.25:698][ 62]LogEditorViewport: Clicking Background
+[2016.06.21-00.50.31:763][720]LogEditorViewport: Clicking on Actor (LMB): CameraActor_Blueprint_C (CameraActor_Blueprint)
+[2016.06.21-00.50.32:604][809]LogEditorViewport: Clicking Background
+[2016.06.21-00.50.33:110][863]LogEditorViewport: Clicking Background
+[2016.06.21-00.52.53:889][582]LogEditorViewport: Clicking on Actor (LMB): CameraActor_Blueprint_C (CameraActor_Blueprint)
+[2016.06.21-00.53.12:597][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuScreen" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.53.12:661][645]LogSavePackage: Save=26.91ms
+[2016.06.21-00.53.12:662][645]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreen5573D3AF40F68D93DC1A44B0000C3035.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap'
+[2016.06.21-00.53.12:665][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap
+[2016.06.21-00.53.12:726][645]LogFileHelpers: Saving map 'MenuScreen' took 0.207
+[2016.06.21-00.53.21:574][635]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite4)
+[2016.06.21-00.53.27:746][350]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite6)
+[2016.06.21-00.53.34:323][103]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite3)
+[2016.06.21-00.53.40:916][845]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite2)
+[2016.06.21-00.53.42:189][985]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite3)
+[2016.06.21-00.53.46:005][416]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite5)
+[2016.06.21-00.53.54:674][396]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite2)
+[2016.06.21-00.53.57:561][721]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite6)
+[2016.06.21-00.54.01:397][167]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite4)
+[2016.06.21-00.54.10:796][245]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite)
+[2016.06.21-00.54.12:840][468]LogEditorViewport: Clicking Background
+[2016.06.21-00.54.15:539][781]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite4)
+[2016.06.21-00.54.17:201][969]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite4)
+[2016.06.21-00.54.23:096][645]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite5)
+[2016.06.21-00.54.23:665][704]LogEditorViewport: Clicking Background
+[2016.06.21-00.54.26:700][ 59]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (buttonback_Sprite2)
+[2016.06.21-00.54.34:875][743]LogText:Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2016.06.21-00.54.47:468][838]LogEditorViewport: Clicking Background
+[2016.06.21-00.54.54:258][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuScreen" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.54.54:321][296]LogSavePackage: Save=27.41ms
+[2016.06.21-00.54.54:321][296]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/MenuScreen74052243449C9741744EC8BA95D0070E.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap'
+[2016.06.21-00.54.54:325][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/MenuScreen.umap
+[2016.06.21-00.54.54:373][296]LogFileHelpers: Saving map 'MenuScreen' took 0.190
+[2016.06.21-00.54.58:726][780]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.21-00.54.58:760][780]Cmd: MAP LOAD FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.21-00.54.58:760][780]LightingResults: New page: Lighting Build
+[2016.06.21-00.54.58:761][780]LoadErrors: New page: Loading map: HomeMenu.umap
+[2016.06.21-00.54.58:761][780]MapCheck: New page: Map Check
+[2016.06.21-00.54.58:761][780]LightingResults: New page: Lighting Build
+[2016.06.21-00.54.58:888][780]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.21-00.54.58:936][780]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.21-00.54.59:010][780]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.474ms to complete.
+[2016.06.21-00.54.59:010][780]LogFileHelpers: Loading map 'HomeMenu' took 0.251
+[2016.06.21-00.55.02:398][130]LogSavePackage: Save=50.90ms
+[2016.06.21-00.55.02:398][130]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/UEDPCHomeMenu8ACAC9C64ABD6D287DE28C8B5F5CB060.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Autosaves/Game/UEDPCHomeMenu.umap'
+[2016.06.21-00.55.02:400][130]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Autosaves/Game/UEDPCHomeMenu.umap
+[2016.06.21-00.55.02:406][130]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.06.21-00.55.51:583][106]LogSavePackage: Save=49.33ms
+[2016.06.21-00.55.51:583][106]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/UEDPCHomeMenu57EC55FC4A8E189DD9370F9C05928C33.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Autosaves/Game/UEDPCHomeMenu.umap'
+[2016.06.21-00.55.51:584][106]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Autosaves/Game/UEDPCHomeMenu.umap
+[2016.06.21-00.55.51:589][106]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.06.21-00.58.01:255][799]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (play_cont_1_Sprite)
+[2016.06.21-00.58.30:743][594]LogEditorViewport: Clicking on Actor (LMB): play_new_1_Sprite_Blueprint_C (play_new_1_Sprite_Blueprint)
+[2016.06.21-00.58.30:842][596]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2016.06.21-00.58.48:682][ 59]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/1stFaceCharcterBP.1stFaceCharcterBP:EventGraph.K2Node_Event_3 or K2Node_Event /Game/2ndFaceCharcterBP.2ndFaceCharcterBP:EventGraph.K2Node_Event_3
+[2016.06.21-00.58.48:682][ 59]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/1stFaceCharcterBP.1stFaceCharcterBP:EventGraph.K2Node_Event_3 or K2Node_Event /Game/3rdFaceCharcterBP.3rdFaceCharcterBP:EventGraph.K2Node_Event_3
+[2016.06.21-00.58.48:682][ 59]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/1stFaceCharcterBP.1stFaceCharcterBP:EventGraph.K2Node_Event_3 or K2Node_Event /Game/4thFaceCharcterBP.4thFaceCharcterBP:EventGraph.K2Node_Event_3
+[2016.06.21-00.58.48:682][ 59]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/1stFaceCharcterBP.1stFaceCharcterBP:EventGraph.K2Node_Event_3 or K2Node_Event /Game/bigCellbp.bigCellbp:EventGraph.K2Node_Event_3
+[2016.06.21-00.58.48:682][ 59]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/1stFaceCharcterBP.1stFaceCharcterBP:EventGraph.K2Node_Event_3 or K2Node_Event /Game/play_new_1_Sprite_Blueprint.play_new_1_Sprite_Blueprint:EventGraph.K2Node_Event_3
+[2016.06.21-00.58.48:682][ 59]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/1stFaceCharcterBP.1stFaceCharcterBP:EventGraph.K2Node_Event_3 or K2Node_Event /Engine/Transient.PROTO_BP_AnimBlueprint_0:EventGraph.K2Node_Event_3
+[2016.06.21-00.58.48:682][ 59]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/play_new_1_Sprite_Blueprint.play_new_1_Sprite_Blueprint:EventGraph.K2Node_Event_3.EdGraphPin_61) from referencer (EdGraphPin /Game/HomeMenu.HomeMenu:PersistentLevel.HomeMenu.EventGraph.K2Node_CallFunction_1.EdGraphPin_63).  Import failed...
+[2016.06.21-00.58.48:682][ 59]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_3.EdGraphPin_61''
+[2016.06.21-00.58.59:092][871]LogSavePackage: Save=141.24ms
+[2016.06.21-00.58.59:092][871]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/UEDPCHomeMenu6936DF744E3C4CC8D1AD7983C548A041.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Autosaves/Game/UEDPCHomeMenu.umap'
+[2016.06.21-00.58.59:094][871]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Autosaves/Game/UEDPCHomeMenu.umap
+[2016.06.21-00.58.59:099][871]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.06.21-00.59.00:775][976]LogEditorViewport: Clicking Background
+[2016.06.21-00.59.00:810][976]LogEditorViewport: Clicking Background
+[2016.06.21-00.59.28:096][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HomeMenu" FILE="../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.21-00.59.28:274][709]LogSavePackage: Save=146.08ms
+[2016.06.21-00.59.28:274][709]LogSavePackage: Moving '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/HomeMenuD428E1F64842E2EB214524B1D74817CF.tmp' to '../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RU
