@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 06/30/16 09:13:44
 LogInit:Display: Running engine for game: BIO_RUBE_V1
 LogPlatformFile: Not using cached read wrapper
@@ -12,6 +13,13 @@ LogInit:Display: Running engine for game: BIO_RUBE_V1
 LogPlatformFile: Not using cached read wrapper
 LogInit:Display: RandInit(1705623425) SRandInit(1705623427).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+=======
+﻿Log file open, 07/04/16 14:25:56
+LogInit:Display: Running engine for game: BIO_RUBE_V1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1705623425) SRandInit(1705623427).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+>>>>>>> Jarrod's-branch
 LogStats: Stats thread started at 0.113425
 LogInit: Version: 4.12.2-3005592+++UE4+Release-4.12
 >>>>>>> Jarrod's-branch
@@ -36,9 +44,12 @@ LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.12
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogInit: Command line: -EpicPortal 
 LogInit: Base directory: D:/Unreal/Epic Games/4.12/Engine/Binaries/Win64/
 =======
+=======
+>>>>>>> Jarrod's-branch
 LogInit: Command line:  /Temp/Autosaves/Game/UEDPCHomeMenu -game -PIEVIACONSOLE -ResX=2048 -ResY=1536  -Multiprocess -windowed -messaging -SessionName="Play in Standalone Game" 
 LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
 >>>>>>> Jarrod's-branch
@@ -60,6 +71,7 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 <<<<<<< HEAD
 [2016.06.30-14.13.44:318][  0]LogInit: Selected Device Profile: [Windows]
 [2016.06.30-14.13.44:318][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
@@ -785,6 +797,8 @@ LogInit: Object subsystem initialized
 [2016.06.30-14.24.55:051][341]LogExit: Exiting.
 [2016.06.30-14.24.55:052][341]Log file closed, 06/30/16 09:24:55
 =======
+=======
+>>>>>>> Jarrod's-branch
 [2016.07.04-19.25.56:827][  0]LogInit: Selected Device Profile: [Windows]
 [2016.07.04-19.25.56:827][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2016.07.04-19.25.56:836][  0]LogInit: Computer: DESKTOP-H3FB43O
@@ -1114,4 +1128,7 @@ LogInit: Object subsystem initialized
 [2016.07.04-19.26.34:905][546]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2016.07.04-19.26.34:906][546]LogExit: Exiting.
 [2016.07.04-19.26.34:908][546]Log file closed, 07/04/16 14:26:34
+<<<<<<< HEAD
+>>>>>>> Jarrod's-branch
+=======
 >>>>>>> Jarrod's-branch
