@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> JWs-Branch
 ﻿Log file open, 06/30/16 09:13:44
 LogInit:Display: Running engine for game: BIO_RUBE_V1
 LogPlatformFile: Not using cached read wrapper
@@ -7,6 +10,7 @@ LogInit:Display: RandInit(272462583) SRandInit(272462585).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
 LogStats: Stats thread started at 0.096828
 LogInit: Version: 4.12.4-3028348+++UE4+Release-4.12
+<<<<<<< HEAD
 =======
 ﻿Log file open, 07/04/16 14:25:56
 LogInit:Display: Running engine for game: BIO_RUBE_V1
@@ -23,6 +27,8 @@ LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1
 LogStats: Stats thread started at 0.113425
 LogInit: Version: 4.12.2-3005592+++UE4+Release-4.12
 >>>>>>> Jarrod's-branch
+=======
+>>>>>>> JWs-Branch
 LogInit: API Version: 2992821
 LogInit: Net Version: 3028348
 LogDevObjectVersion: Number of dev versions registered: 13
@@ -45,6 +51,7 @@ LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.12
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogInit: Command line: -EpicPortal 
 LogInit: Base directory: D:/Unreal/Epic Games/4.12/Engine/Binaries/Win64/
 =======
@@ -53,8 +60,11 @@ LogInit: Base directory: D:/Unreal/Epic Games/4.12/Engine/Binaries/Win64/
 LogInit: Command line:  /Temp/Autosaves/Game/UEDPCHomeMenu -game -PIEVIACONSOLE -ResX=2048 -ResY=1536  -Multiprocess -windowed -messaging -SessionName="Play in Standalone Game" 
 LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
 >>>>>>> Jarrod's-branch
+=======
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/Epic Games/4.12/Engine/Binaries/Win64/
+>>>>>>> JWs-Branch
 LogInit: Installed Engine Build: 1
-LogFileManager:Warning: Error deleting file: ../../../../../../Users/NEXUS/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Logs/BIO_RUBE_V1_3.log (Error Code 32)
 LogInit: Using libcurl 7.41.0
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with WinSSL
@@ -73,6 +83,9 @@ LogInit: Presizing for max 8388607 objects, including 0 objects not considered b
 LogInit: Object subsystem initialized
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> JWs-Branch
 [2016.06.30-14.13.44:318][  0]LogInit: Selected Device Profile: [Windows]
 [2016.06.30-14.13.44:318][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2016.06.30-14.13.44:327][  0]LogInit: Computer: WINSTON
@@ -796,6 +809,7 @@ LogInit: Object subsystem initialized
 [2016.06.30-14.24.55:019][341]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2016.06.30-14.24.55:051][341]LogExit: Exiting.
 [2016.06.30-14.24.55:052][341]Log file closed, 06/30/16 09:24:55
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> Jarrod's-branch
@@ -1132,3 +1146,5 @@ LogInit: Object subsystem initialized
 >>>>>>> Jarrod's-branch
 =======
 >>>>>>> Jarrod's-branch
+=======
+>>>>>>> JWs-Branch
