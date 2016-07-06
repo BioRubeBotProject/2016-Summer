@@ -1,12 +1,12 @@
-﻿Log file open, 06/18/16 15:06:48
+﻿Log file open, 06/30/16 09:13:44
 LogInit:Display: Running engine for game: BIO_RUBE_V1
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1163786057) SRandInit(1163786058).
+LogInit:Display: RandInit(272462583) SRandInit(272462585).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.089449
-LogInit: Version: 4.12.3-3013449+++UE4+Release-4.12
+LogStats: Stats thread started at 0.096828
+LogInit: Version: 4.12.4-3028348+++UE4+Release-4.12
 LogInit: API Version: 2992821
-LogInit: Net Version: 3013449
+LogInit: Net Version: 3028348
 LogDevObjectVersion: Number of dev versions registered: 13
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
 LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
@@ -21,7 +21,7 @@ LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
 LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
 LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
 LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
-LogInit: Compiled (64-bit): Jun 14 2016 17:53:16
+LogInit: Compiled (64-bit): Jun 27 2016 09:29:04
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.12
@@ -44,174 +44,726 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.06.18-20.06.48:482][  0]LogInit: Selected Device Profile: [Windows]
-[2016.06.18-20.06.48:482][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.06.18-20.06.48:491][  0]LogInit: Computer: WINSTON
-[2016.06.18-20.06.48:491][  0]LogInit: User: JohnGarth
-[2016.06.18-20.06.48:491][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.06.18-20.06.48:491][  0]LogInit: High frequency timer resolution =3.027359 MHz
-[2016.06.18-20.06.48:491][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.06.18-20.06.48:491][  0]LogMemory: Platform Memory Stats for Windows
-[2016.06.18-20.06.48:491][  0]LogMemory: Process Physical Memory: 208.72 MB used, 208.72 MB peak
-[2016.06.18-20.06.48:491][  0]LogMemory: Process Virtual Memory: 196.98 MB used, 196.98 MB peak
-[2016.06.18-20.06.48:491][  0]LogMemory: Physical Memory: 5875.68 MB used, 8136.02 MB total
-[2016.06.18-20.06.48:491][  0]LogMemory: Virtual Memory: 575.84 MB used, 134217728.00 MB total
-[2016.06.18-20.06.48:546][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.06.18-20.06.48:957][  0]LogD3D11RHI: D3D11 adapters:
-[2016.06.18-20.06.48:982][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
-[2016.06.18-20.06.48:982][  0]LogD3D11RHI:       3054/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2016.06.18-20.06.48:984][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.06.18-20.06.48:984][  0]LogD3D11RHI:       0/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.06.18-20.06.48:984][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.06.18-20.06.48:989][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.06.18-20.06.48:989][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
-[2016.06.18-20.06.48:989][  0]LogWindows: EnumDisplayDevices:
-[2016.06.18-20.06.48:990][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
-[2016.06.18-20.06.48:990][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
-[2016.06.18-20.06.48:990][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.06.18-20.06.48:990][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.06.18-20.06.48:990][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.06.18-20.06.48:991][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.06.18-20.06.48:991][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2016.06.18-20.06.48:991][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
-[2016.06.18-20.06.48:991][  0]LogD3D11RHI:   Driver Version: Crimson 16.6.1 (internal:16.200.1025.0, unified:16.200.1025.0)
-[2016.06.18-20.06.48:991][  0]LogD3D11RHI:      Driver Date: 6-2-2016
-[2016.06.18-20.06.48:991][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.06.18-20.06.49:001][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2016.06.18-20.06.49:011][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2016.06.18-20.06.49:011][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Intermediate/Shaders/WorkingDirectory/11760/).
-[2016.06.18-20.06.49:011][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JOHNGA~1/AppData/Local/Temp/UnrealShaderWorkingDir/F424C8DC4D63751E47F17A8859ABD059/'.
-[2016.06.18-20.06.49:011][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.06.18-20.06.50:324][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.06.18-20.06.50:336][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.06.18-20.06.50:347][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.06.18-20.06.50:358][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.06.18-20.06.50:369][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.06.18-20.06.50:379][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.06.18-20.06.50:388][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.06.18-20.06.50:398][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.06.18-20.06.50:408][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.06.18-20.06.50:420][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.06.18-20.06.50:430][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.06.18-20.06.50:452][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.06.18-20.06.50:452][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.06.18-20.06.50:454][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.06.18-20.06.50:480][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.06.18-20.06.50:490][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.06.18-20.06.50:501][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.06.18-20.06.50:510][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.06.18-20.06.50:521][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.06.18-20.06.50:521][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.06.18-20.06.50:617][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.06.18-20.06.50:666][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/JohnGarth/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.06.18-20.06.50:666][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JohnGarth/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2016.06.18-20.06.50:666][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.06.18-20.06.50:666][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.06.18-20.06.50:666][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.06.18-20.06.50:666][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.06.18-20.06.50:684][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.06.18-20.06.50:695][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JohnGarth/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.06.18-20.06.50:952][  0]LogInit: Selected Device Profile: [Windows]
-[2016.06.18-20.06.50:953][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.06.18-20.06.51:098][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.06.18-20.06.51:098][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.06.18-20.06.51:098][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.06.18-20.06.51:339][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
-[2016.06.18-20.06.51:363][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.020112 seconds
-[2016.06.18-20.06.51:368][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2016.06.18-20.06.51:368][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
-[2016.06.18-20.06.51:368][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.06.18-20.06.51:376][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.06.18-20.06.51:553][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.06.18-20.06.51:553][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.06.18-20.06.52:153][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.06.18-20.06.52:359][  0]SourceControl: Info Source control is disabled
-[2016.06.18-20.06.53:860][  0]LogEngine: Initializing Engine...
-[2016.06.18-20.06.53:874][  0]LogHMD: SteamVR failed to initialize.  Err: 108
-[2016.06.18-20.06.53:887][  0]LogHMD: SteamVR failed to initialize.  Err: 108
-[2016.06.18-20.06.54:034][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.06.18-20.06.54:044][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.06.18-20.06.54:055][  0]LogInit: FAudioDevice initialized.
-[2016.06.18-20.06.54:081][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/JohnGarth/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.06.18-20.06.54:086][  0]LogInit: Texture streaming: Enabled
-[2016.06.18-20.06.54:117][  0]LogInit: Transaction tracking system initialized
-[2016.06.18-20.06.54:147][  0]BlueprintLog: New page: Editor Load
-[2016.06.18-20.06.54:245][  0]LocalizationService: Info Localization service is disabled
-[2016.06.18-20.06.54:323][  0]LogConsoleResponse:Display: 
-[2016.06.18-20.06.54:418][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.06.18-20.06.54:418][  0]LogCook:Display: Mobile HDR setting 1
-[2016.06.18-20.06.54:871][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/' took 0.02s
-[2016.06.18-20.06.54:871][  0]Cmd: MAP LOAD FILE="C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.06.18-20.06.54:871][  0]LightingResults: New page: Lighting Build
-[2016.06.18-20.06.54:874][  0]MapCheck: New page: Map Check
-[2016.06.18-20.06.54:874][  0]LightingResults: New page: Lighting Build
-[2016.06.18-20.06.55:133][  0]LogAIModule: Creating AISystem for world HomeMenu
-[2016.06.18-20.06.55:136][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.06.18-20.06.55:136][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.06.18-20.06.55:169][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.39ms to complete.
-[2016.06.18-20.06.55:169][  0]LogFileHelpers: Loading map 'HomeMenu' took 0.298
-[2016.06.18-20.06.55:370][  0]LogCollectionManager: Loaded 1 collections in 0.001618 seconds
-[2016.06.18-20.06.55:414][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Collections/' took 0.01s
-[2016.06.18-20.06.55:414][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Developers/JohnGarth/Collections/' took 0.01s
-[2016.06.18-20.06.55:414][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Collections/' took 0.01s
-[2016.06.18-20.06.55:414][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
-[2016.06.18-20.06.55:414][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
-[2016.06.18-20.06.55:422][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2047 classes and 369 folders.
-[2016.06.18-20.06.55:427][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.06.18-20.06.55:427][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.06.18-20.06.55:428][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
-[2016.06.18-20.06.55:434][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.06.18-20.06.57:436][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.06.18-20.06.57:443][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.06.18-20.06.57:448][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.06.18-20.06.57:475][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.06.18-20.06.57:475][  0]LogLoad: Full Startup: 9.63 seconds (BP compile: 0.05 seconds)
-[2016.06.18-20.06.57:475][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.06.18-20.06.57:475][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.06.18-20.06.57:484][  0]LogOcInput: OculusInput pre-init called
-[2016.06.18-20.06.57:501][  0]SourceControl: Info On branch master
-[2016.06.18-20.06.57:501][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
-[2016.06.18-20.06.57:501][  0]SourceControl: Info Changes not staged for commit:
-[2016.06.18-20.06.57:501][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
-[2016.06.18-20.06.57:501][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2016.06.18-20.06.57:501][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Intermediate/Config/CoalescedSourceConfigs/EditorPerProjectUserSettings.ini
-[2016.06.18-20.06.57:501][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
-[2016.06.18-20.06.57:501][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Config/Windows/Editor.ini
-[2016.06.18-20.06.57:501][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2016.06.18-20.06.57:501][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Logs/BIO_RUBE_V1.log
-[2016.06.18-20.06.57:501][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2016.06.18-20.06.57:501][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.06.18-20.06.57:646][  0]LogRenderer: Reallocating scene render targets to support 800x496 (Frame:2).
-[2016.06.18-20.07.00:660][335]LogAssetRegistry: Asset discovery search completed in 9.3431 seconds
-[2016.06.18-20.07.00:660][335]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000005 seconds (found 0 objects)
-[2016.06.18-20.07.00:660][335]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000028 seconds (updated 0 objects)
-[2016.06.18-20.07.05:448][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.18-20.07.05:478][892]PIE: New page: PIE session: HomeMenu (Jun 18, 2016, 9:07:05 AM)
-[2016.06.18-20.07.05:497][892]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
-[2016.06.18-20.07.05:512][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014839s)
-[2016.06.18-20.07.05:512][892]LogAIModule: Creating AISystem for world HomeMenu
-[2016.06.18-20.07.05:512][892]LogPlayLevel: PIE: World Init took: (0.000615s)
-[2016.06.18-20.07.05:528][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.033441s)
-[2016.06.18-20.07.05:562][892]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.06.18-20.07.05:568][892]LogInit: FAudioDevice initialized.
-[2016.06.18-20.07.05:724][892]LogWorld: Game class is 'Mouse_GameMode_C'
-[2016.06.18-20.07.05:831][892]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.18-15.07.05
-[2016.06.18-20.07.05:979][892]LogWorld: Bringing up level for play took: 0.150628
-[2016.06.18-20.07.06:062][892]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2016.06.18-20.07.06:092][892]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 1.585
-[2016.06.18-20.08.27:208][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.06.18-20.08.27:208][946]PIE: New page: PIE session: HomeMenu (Jun 18, 2016, 9:08:27 AM)
-[2016.06.18-20.08.27:209][946]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
-[2016.06.18-20.08.27:210][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001590s)
-[2016.06.18-20.08.27:211][946]LogAIModule: Creating AISystem for world HomeMenu
-[2016.06.18-20.08.27:211][946]LogPlayLevel: PIE: World Init took: (0.000641s)
-[2016.06.18-20.08.27:211][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002468s)
-[2016.06.18-20.08.27:221][946]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.06.18-20.08.27:227][946]LogInit: FAudioDevice initialized.
-[2016.06.18-20.08.27:290][946]LogWorld: Game class is 'Mouse_GameMode_C'
-[2016.06.18-20.08.27:293][946]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.18-15.08.27
-[2016.06.18-20.08.27:294][946]LogWorld: Bringing up level for play took: 0.003494
-[2016.06.18-20.08.27:296][946]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.789
-[2016.06.18-20.08.34:056][752]LogEditorViewport: Clicking Background
-[2016.06.18-20.09.28:356][300]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (backdrop5_Sprite2)
-[2016.06.18-20.10.08:305][898]SourceControl:Error: Error fatal: Could not
+[2016.06.30-14.13.44:318][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.30-14.13.44:318][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.30-14.13.44:327][  0]LogInit: Computer: WINSTON
+[2016.06.30-14.13.44:327][  0]LogInit: User: JohnGarth
+[2016.06.30-14.13.44:327][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.06.30-14.13.44:327][  0]LogInit: High frequency timer resolution =3.027354 MHz
+[2016.06.30-14.13.44:328][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.06.30-14.13.44:328][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.30-14.13.44:328][  0]LogMemory: Process Physical Memory: 210.70 MB used, 210.70 MB peak
+[2016.06.30-14.13.44:328][  0]LogMemory: Process Virtual Memory: 196.91 MB used, 196.91 MB peak
+[2016.06.30-14.13.44:328][  0]LogMemory: Physical Memory: 6047.39 MB used, 8136.02 MB total
+[2016.06.30-14.13.44:328][  0]LogMemory: Virtual Memory: 576.34 MB used, 134217728.00 MB total
+[2016.06.30-14.13.44:362][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.06.30-14.13.44:779][  0]LogD3D11RHI: D3D11 adapters:
+[2016.06.30-14.13.44:790][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2016.06.30-14.13.44:790][  0]LogD3D11RHI:       3054/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2016.06.30-14.13.44:791][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.06.30-14.13.44:792][  0]LogD3D11RHI:       0/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.06.30-14.13.44:792][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.06.30-14.13.44:797][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.06.30-14.13.44:797][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2016.06.30-14.13.44:797][  0]LogWindows: EnumDisplayDevices:
+[2016.06.30-14.13.44:798][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2016.06.30-14.13.44:798][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2016.06.30-14.13.44:798][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2016.06.30-14.13.44:798][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2016.06.30-14.13.44:798][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2016.06.30-14.13.44:799][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2016.06.30-14.13.44:799][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.06.30-14.13.44:799][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2016.06.30-14.13.44:799][  0]LogD3D11RHI:   Driver Version: Crimson 16.6.1 (internal:16.200.1025.0, unified:16.200.1025.0)
+[2016.06.30-14.13.44:799][  0]LogD3D11RHI:      Driver Date: 6-2-2016
+[2016.06.30-14.13.44:799][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.30-14.13.44:806][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.06.30-14.13.44:817][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.06.30-14.13.44:817][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Intermediate/Shaders/WorkingDirectory/14404/).
+[2016.06.30-14.13.44:817][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JOHNGA~1/AppData/Local/Temp/UnrealShaderWorkingDir/B9C276B148DCD9E0C0389CBC0F2861D2/'.
+[2016.06.30-14.13.44:817][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.30-14.13.45:778][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.30-14.13.45:788][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.30-14.13.45:800][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.30-14.13.45:810][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.30-14.13.45:820][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.30-14.13.45:830][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.30-14.13.45:838][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.30-14.13.45:847][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.30-14.13.45:855][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.30-14.13.45:864][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.30-14.13.45:873][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.30-14.13.45:890][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.30-14.13.45:890][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.30-14.13.45:891][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.30-14.13.45:913][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.30-14.13.45:921][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.06.30-14.13.45:931][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.30-14.13.45:939][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.30-14.13.45:948][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.30-14.13.45:948][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.30-14.13.46:027][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.30-14.13.46:079][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/JohnGarth/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.06.30-14.13.46:079][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JohnGarth/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.06.30-14.13.46:079][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.30-14.13.46:079][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.30-14.13.46:079][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.30-14.13.46:079][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.30-14.13.46:098][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.30-14.13.46:109][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JohnGarth/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.30-14.13.46:379][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.30-14.13.46:379][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.06.30-14.13.46:558][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.30-14.13.46:558][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.30-14.13.46:558][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.06.30-14.13.46:858][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2016.06.30-14.13.46:883][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.022317 seconds
+[2016.06.30-14.13.46:888][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.06.30-14.13.46:888][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.06.30-14.13.46:888][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.06.30-14.13.46:896][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.30-14.13.47:064][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.30-14.13.47:064][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.30-14.13.47:695][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.30-14.13.47:909][  0]SourceControl: Info Source control is disabled
+[2016.06.30-14.13.49:699][  0]LogEngine: Initializing Engine...
+[2016.06.30-14.13.49:706][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.06.30-14.13.49:712][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.06.30-14.13.49:845][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.30-14.13.49:851][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.13.49:868][  0]LogInit: FAudioDevice initialized.
+[2016.06.30-14.13.49:891][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/JohnGarth/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.06.30-14.13.49:896][  0]LogInit: Texture streaming: Enabled
+[2016.06.30-14.13.49:958][  0]LogInit: Transaction tracking system initialized
+[2016.06.30-14.13.49:983][  0]BlueprintLog: New page: Editor Load
+[2016.06.30-14.13.50:063][  0]LocalizationService: Info Localization service is disabled
+[2016.06.30-14.13.50:129][  0]LogConsoleResponse:Display: 
+[2016.06.30-14.13.50:357][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.06.30-14.13.50:357][  0]LogCook:Display: Mobile HDR setting 1
+[2016.06.30-14.13.50:766][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/' took 0.03s
+[2016.06.30-14.13.50:767][  0]Cmd: MAP LOAD FILE="C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.30-14.13.50:768][  0]LightingResults: New page: Lighting Build
+[2016.06.30-14.13.50:770][  0]MapCheck: New page: Map Check
+[2016.06.30-14.13.50:770][  0]LightingResults: New page: Lighting Build
+[2016.06.30-14.13.51:323][  0]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.13.51:426][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.30-14.13.51:449][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.30-14.13.51:482][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.628ms to complete.
+[2016.06.30-14.13.51:482][  0]LogFileHelpers: Loading map 'HomeMenu' took 0.715
+[2016.06.30-14.13.56:690][  0]LogCollectionManager: Loaded 1 collections in 0.005761 seconds
+[2016.06.30-14.13.56:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Collections/' took 0.01s
+[2016.06.30-14.13.56:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Developers/JohnGarth/Collections/' took 0.01s
+[2016.06.30-14.13.56:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Collections/' took 0.01s
+[2016.06.30-14.13.56:939][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
+[2016.06.30-14.13.56:939][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.06.30-14.13.56:950][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2047 classes and 369 folders.
+[2016.06.30-14.13.57:048][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.012 s
+[2016.06.30-14.13.57:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.06.30-14.13.57:050][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.06.30-14.13.57:149][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.06.30-14.13.58:295][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.06.30-14.13.58:463][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.30-14.13.58:782][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.30-14.13.58:918][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.06.30-14.13.58:918][  0]LogLoad: Full Startup: 15.29 seconds (BP compile: 0.13 seconds)
+[2016.06.30-14.13.58:918][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.06.30-14.13.58:918][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.06.30-14.13.58:928][  0]LogOcInput: OculusInput pre-init called
+[2016.06.30-14.13.59:081][  0]SourceControl: Info On branch JWs-Branch
+[2016.06.30-14.13.59:081][  0]SourceControl: Info Your branch is ahead of 'origin/JWs-Branch' by 3 commits.
+[2016.06.30-14.13.59:081][  0]SourceControl: Info   (use "git push" to publish your local commits)
+[2016.06.30-14.13.59:081][  0]SourceControl: Info Changes to be committed:
+[2016.06.30-14.13.59:081][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	new file:   BIO_RUBE_V1 4.12/Content/Assets/BioRube_Assets/Cells/cell2_Sprite.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	new file:   BIO_RUBE_V1 4.12/Content/Assets/BioRube_Assets/Cells/cell4_Sprite.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	new file:   BIO_RUBE_V1 4.12/Content/blink_Blueprint.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	new file:   BIO_RUBE_V1 4.12/Content/cell1_Sprite_Blueprint.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	new file:   BIO_RUBE_V1 4.12/Content/cell2_Sprite_Blueprint.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	new file:   BIO_RUBE_V1 4.12/Content/cell3_Sprite_Blueprint.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	new file:   BIO_RUBE_V1 4.12/Content/cell4_Sprite_Blueprint.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	new file:   BIO_RUBE_V1 4.12/Content/cell5_Sprite_Blueprint.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	new file:   BIO_RUBE_V1 4.12/Content/cell6_Sprite_Blueprint.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info Changes not staged for commit:
+[2016.06.30-14.13.59:082][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.06.30-14.13.59:082][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Config/DefaultEngine.ini
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Content/1stFaceCharcterBP.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Content/1stWidgetBP.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Content/2ndWidgetBP2.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Content/HomeMenu.umap
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Content/blink.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Content/blink_Blueprint.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Content/cell1_Sprite_Blueprint.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Content/cell6_Sprite_Blueprint.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Intermediate/CachedAssetRegistry.bin
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/AutoScreenshot.png
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Autosaves/Game/1stWidgetBP_Auto1.uasset
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Autosaves/Game/HomeMenu_Auto1.umap
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Autosaves/Game/HomeMenu_Auto2.umap
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Autosaves/Game/HomeMenu_Auto3.umap
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Autosaves/Game/UEDPCHomeMenu.umap
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Config/Windows/Editor.ini
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Config/Windows/Engine.ini
+[2016.06.30-14.13.59:082][  0]SourceControl: Info 	modified:   BIO_RUBE_V1 4.12/Saved/Logs/BIO_RUBE_V1.log
+[2016.06.30-14.13.59:082][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.30-14.13.59:937][  0]LogRenderer: Reallocating scene render targets to support 1068x620 (Frame:2).
+[2016.06.30-14.14.01:022][  2]LogAssetRegistry: Asset discovery search completed in 14.1857 seconds
+[2016.06.30-14.14.01:022][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000006 seconds (found 0 objects)
+[2016.06.30-14.14.01:022][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000044 seconds (updated 0 objects)
+[2016.06.30-14.14.03:824][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-14.14.04:234][256]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:14:03 AM)
+[2016.06.30-14.14.04:234][256]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.14.04:283][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048192s)
+[2016.06.30-14.14.04:283][256]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.14.04:283][256]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2016.06.30-14.14.04:333][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.098656s)
+[2016.06.30-14.14.04:400][256]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.14.04:407][256]LogInit: FAudioDevice initialized.
+[2016.06.30-14.14.04:971][256]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.14.05:129][256]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.14.05
+[2016.06.30-14.14.05:203][256]LogWorld: Bringing up level for play took: 0.076182
+[2016.06.30-14.14.05:360][256]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2016.06.30-14.14.05:423][256]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.989
+[2016.06.30-14.14.12:762][ 15]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (cell6_sprite_32)
+[2016.06.30-14.14.15:886][200]LogEditorViewport: Clicking on Actor (LMB): cell4_Sprite_Blueprint_C (cell4_Sprite_Blueprint)
+[2016.06.30-14.14.30:031][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-14.14.30:031][881]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:14:30 AM)
+[2016.06.30-14.14.30:031][881]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.14.30:033][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001424s)
+[2016.06.30-14.14.30:033][881]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.14.30:033][881]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2016.06.30-14.14.30:033][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002176s)
+[2016.06.30-14.14.30:050][881]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.14.30:056][881]LogInit: FAudioDevice initialized.
+[2016.06.30-14.14.30:110][881]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.14.30:113][881]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.14.30
+[2016.06.30-14.14.30:114][881]LogWorld: Bringing up level for play took: 0.002611
+[2016.06.30-14.14.30:115][881]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu -0.32
+[2016.06.30-14.14.32:386][142]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (cell6_sprite_32)
+[2016.06.30-14.14.34:494][391]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (cell6_sprite_32)
+[2016.06.30-14.14.39:673][959]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (cell6_sprite_32)
+[2016.06.30-14.14.40:350][ 38]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (cell6_sprite_32)
+[2016.06.30-14.14.44:068][482]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (cell6_sprite_32)
+[2016.06.30-14.14.46:751][781]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (cell6_sprite_32)
+[2016.06.30-14.14.47:561][876]LogEditorViewport: Clicking on Actor (LMB): cell6_Sprite_Blueprint_C (cell6_Sprite_Blueprint)
+[2016.06.30-14.14.48:713][  5]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (cell6_sprite_32)
+[2016.06.30-14.14.51:018][275]LogEditorViewport: Clicking on Actor (LMB): cell2_Sprite_Blueprint_C (cell2_Sprite_Blueprint)
+[2016.06.30-14.14.54:348][533]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2016.06.30-14.16.27:051][523]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.30-14.16.27:133][523]LogPlayLevel: [PlayLevel] Compiling cell2_Sprite_Blueprint before play...
+[2016.06.30-14.16.27:416][523]LogPlayLevel: PlayLevel: Blueprint regeneration took 364 ms (1 blueprints)
+[2016.06.30-14.16.27:458][523]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:16:27 AM)
+[2016.06.30-14.16.27:458][523]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.16.27:459][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001218s)
+[2016.06.30-14.16.27:460][523]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.16.27:460][523]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2016.06.30-14.16.27:460][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.001945s)
+[2016.06.30-14.16.27:481][523]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.16.27:489][523]LogInit: FAudioDevice initialized.
+[2016.06.30-14.16.27:541][523]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.16.27:544][523]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.16.27
+[2016.06.30-14.16.27:545][523]LogWorld: Bringing up level for play took: 0.002570
+[2016.06.30-14.16.27:546][523]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 1.112
+[2016.06.30-14.16.40:573][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-14.16.40:573][870]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:16:40 AM)
+[2016.06.30-14.16.40:573][870]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.16.40:575][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001429s)
+[2016.06.30-14.16.40:575][870]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.16.40:575][870]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2016.06.30-14.16.40:575][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002243s)
+[2016.06.30-14.16.40:593][870]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.16.40:599][870]LogInit: FAudioDevice initialized.
+[2016.06.30-14.16.40:650][870]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.16.40:653][870]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.16.40
+[2016.06.30-14.16.40:654][870]LogWorld: Bringing up level for play took: 0.002367
+[2016.06.30-14.16.40:655][870]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.22
+[2016.06.30-14.18.05:147][949]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.30-14.18.05:152][949]LogPlayLevel: [PlayLevel] Compiling cell2_Sprite_Blueprint before play...
+[2016.06.30-14.18.05:230][949]LogPlayLevel: PlayLevel: Blueprint regeneration took 82 ms (1 blueprints)
+[2016.06.30-14.18.05:247][949]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:18:05 AM)
+[2016.06.30-14.18.05:247][949]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.18.05:249][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001314s)
+[2016.06.30-14.18.05:249][949]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.18.05:249][949]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2016.06.30-14.18.05:249][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002112s)
+[2016.06.30-14.18.05:269][949]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.18.05:278][949]LogInit: FAudioDevice initialized.
+[2016.06.30-14.18.05:332][949]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.18.05:334][949]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.18.05
+[2016.06.30-14.18.05:335][949]LogWorld: Bringing up level for play took: 0.002344
+[2016.06.30-14.18.05:336][949]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.902
+[2016.06.30-14.18.50:734][318]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.30-14.18.50:739][318]LogPlayLevel: [PlayLevel] Compiling cell2_Sprite_Blueprint before play...
+[2016.06.30-14.18.50:815][318]LogPlayLevel: PlayLevel: Blueprint regeneration took 81 ms (1 blueprints)
+[2016.06.30-14.18.50:831][318]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:18:50 AM)
+[2016.06.30-14.18.50:831][318]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.18.50:833][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001369s)
+[2016.06.30-14.18.50:833][318]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.18.50:833][318]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2016.06.30-14.18.50:833][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002191s)
+[2016.06.30-14.18.50:851][318]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.18.50:859][318]LogInit: FAudioDevice initialized.
+[2016.06.30-14.18.50:911][318]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.18.50:914][318]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.18.50
+[2016.06.30-14.18.50:915][318]LogWorld: Bringing up level for play took: 0.002470
+[2016.06.30-14.18.50:916][318]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.482
+[2016.06.30-14.19.10:229][211]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.30-14.19.10:235][211]LogPlayLevel: [PlayLevel] Compiling cell2_Sprite_Blueprint before play...
+[2016.06.30-14.19.10:309][211]LogPlayLevel: PlayLevel: Blueprint regeneration took 79 ms (1 blueprints)
+[2016.06.30-14.19.10:324][211]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:19:10 AM)
+[2016.06.30-14.19.10:324][211]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.19.10:326][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001504s)
+[2016.06.30-14.19.10:327][211]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.19.10:327][211]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2016.06.30-14.19.10:327][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002351s)
+[2016.06.30-14.19.10:345][211]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.19.10:352][211]LogInit: FAudioDevice initialized.
+[2016.06.30-14.19.10:403][211]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.19.10:406][211]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.19.10
+[2016.06.30-14.19.10:406][211]LogWorld: Bringing up level for play took: 0.002575
+[2016.06.30-14.19.10:408][211]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu -0.027
+[2016.06.30-14.19.19:358][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-14.19.19:359][198]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:19:19 AM)
+[2016.06.30-14.19.19:359][198]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.19.19:360][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001321s)
+[2016.06.30-14.19.19:360][198]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.19.19:361][198]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2016.06.30-14.19.19:361][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002040s)
+[2016.06.30-14.19.19:379][198]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.19.19:389][198]LogInit: FAudioDevice initialized.
+[2016.06.30-14.19.19:442][198]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.19.19:445][198]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.19.19
+[2016.06.30-14.19.19:446][198]LogWorld: Bringing up level for play took: 0.002682
+[2016.06.30-14.19.19:447][198]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 1.013
+[2016.06.30-14.19.28:632][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-14.19.28:632][133]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:19:28 AM)
+[2016.06.30-14.19.28:632][133]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.19.28:633][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001525s)
+[2016.06.30-14.19.28:634][133]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.19.28:634][133]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2016.06.30-14.19.28:634][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002364s)
+[2016.06.30-14.19.28:651][133]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.19.28:658][133]LogInit: FAudioDevice initialized.
+[2016.06.30-14.19.28:708][133]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.19.28:711][133]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.19.28
+[2016.06.30-14.19.28:711][133]LogWorld: Bringing up level for play took: 0.002385
+[2016.06.30-14.19.28:712][133]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.278
+[2016.06.30-14.19.37:036][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-14.19.37:036][ 41]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:19:37 AM)
+[2016.06.30-14.19.37:036][ 41]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.19.37:038][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001330s)
+[2016.06.30-14.19.37:038][ 41]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.19.37:038][ 41]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2016.06.30-14.19.37:038][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002137s)
+[2016.06.30-14.19.37:055][ 41]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.19.37:062][ 41]LogInit: FAudioDevice initialized.
+[2016.06.30-14.19.37:111][ 41]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.19.37:114][ 41]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.19.37
+[2016.06.30-14.19.37:114][ 41]LogWorld: Bringing up level for play took: 0.002398
+[2016.06.30-14.19.37:116][ 41]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.681
+[2016.06.30-14.19.58:912][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-14.19.58:912][304]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:19:58 AM)
+[2016.06.30-14.19.58:912][304]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.19.58:914][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001369s)
+[2016.06.30-14.19.58:914][304]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.19.58:914][304]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2016.06.30-14.19.58:915][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002209s)
+[2016.06.30-14.19.58:932][304]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.19.58:938][304]LogInit: FAudioDevice initialized.
+[2016.06.30-14.19.58:992][304]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.19.58:995][304]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.19.58
+[2016.06.30-14.19.58:995][304]LogWorld: Bringing up level for play took: 0.002817
+[2016.06.30-14.19.58:997][304]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.562
+[2016.06.30-14.20.13:251][766]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.30-14.20.13:256][766]LogPlayLevel: [PlayLevel] Compiling cell2_Sprite_Blueprint before play...
+[2016.06.30-14.20.13:332][766]LogPlayLevel: PlayLevel: Blueprint regeneration took 81 ms (1 blueprints)
+[2016.06.30-14.20.13:349][766]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:20:13 AM)
+[2016.06.30-14.20.13:349][766]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.20.13:350][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001354s)
+[2016.06.30-14.20.13:351][766]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.20.13:351][766]LogPlayLevel: PIE: World Init took: (0.000515s)
+[2016.06.30-14.20.13:351][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002060s)
+[2016.06.30-14.20.13:370][766]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.20.13:377][766]LogInit: FAudioDevice initialized.
+[2016.06.30-14.20.13:425][766]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.20.13:428][766]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.20.13
+[2016.06.30-14.20.13:429][766]LogWorld: Bringing up level for play took: 0.002258
+[2016.06.30-14.20.13:430][766]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.995
+[2016.06.30-14.21.45:511][575]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.30-14.21.45:516][575]LogPlayLevel: [PlayLevel] Compiling cell2_Sprite_Blueprint before play...
+[2016.06.30-14.21.45:595][575]LogPlayLevel: PlayLevel: Blueprint regeneration took 84 ms (1 blueprints)
+[2016.06.30-14.21.45:610][575]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:21:45 AM)
+[2016.06.30-14.21.45:610][575]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.21.45:612][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001579s)
+[2016.06.30-14.21.45:612][575]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.21.45:612][575]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2016.06.30-14.21.45:613][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002529s)
+[2016.06.30-14.21.45:630][575]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.21.45:639][575]LogInit: FAudioDevice initialized.
+[2016.06.30-14.21.45:696][575]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.21.45:699][575]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.21.45
+[2016.06.30-14.21.45:699][575]LogWorld: Bringing up level for play took: 0.002437
+[2016.06.30-14.21.45:700][575]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu -0.734
+[2016.06.30-14.21.55:651][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-14.21.55:652][561]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:21:55 AM)
+[2016.06.30-14.21.55:652][561]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.21.55:653][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001278s)
+[2016.06.30-14.21.55:653][561]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.21.55:654][561]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2016.06.30-14.21.55:654][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.001977s)
+[2016.06.30-14.21.55:672][561]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.21.55:679][561]LogInit: FAudioDevice initialized.
+[2016.06.30-14.21.55:730][561]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.21.55:733][561]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.21.55
+[2016.06.30-14.21.55:734][561]LogWorld: Bringing up level for play took: 0.002606
+[2016.06.30-14.21.55:734][561]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu -0.699
+[2016.06.30-14.22.05:613][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-14.22.05:614][589]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:22:05 AM)
+[2016.06.30-14.22.05:614][589]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.22.05:615][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001479s)
+[2016.06.30-14.22.05:616][589]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.22.05:616][589]LogPlayLevel: PIE: World Init took: (0.000484s)
+[2016.06.30-14.22.05:616][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002190s)
+[2016.06.30-14.22.05:633][589]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.22.05:639][589]LogInit: FAudioDevice initialized.
+[2016.06.30-14.22.05:688][589]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.22.05:691][589]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.22.05
+[2016.06.30-14.22.05:692][589]LogWorld: Bringing up level for play took: 0.002505
+[2016.06.30-14.22.05:693][589]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu -0.742
+[2016.06.30-14.22.20:211][110]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.30-14.22.20:216][110]LogPlayLevel: [PlayLevel] Compiling cell2_Sprite_Blueprint before play...
+[2016.06.30-14.22.20:294][110]LogPlayLevel: PlayLevel: Blueprint regeneration took 83 ms (1 blueprints)
+[2016.06.30-14.22.20:310][110]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:22:20 AM)
+[2016.06.30-14.22.20:310][110]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.22.20:311][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001531s)
+[2016.06.30-14.22.20:312][110]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.22.20:312][110]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2016.06.30-14.22.20:312][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002344s)
+[2016.06.30-14.22.20:331][110]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.22.20:340][110]LogInit: FAudioDevice initialized.
+[2016.06.30-14.22.20:390][110]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.22.20:393][110]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.22.20
+[2016.06.30-14.22.20:393][110]LogWorld: Bringing up level for play took: 0.002207
+[2016.06.30-14.22.20:395][110]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu -0.04
+[2016.06.30-14.22.24:352][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-14.22.24:352][497]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:22:24 AM)
+[2016.06.30-14.22.24:352][497]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.22.24:354][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001548s)
+[2016.06.30-14.22.24:355][497]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.22.24:355][497]LogPlayLevel: PIE: World Init took: (0.001690s)
+[2016.06.30-14.22.24:355][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.003506s)
+[2016.06.30-14.22.24:373][497]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.22.24:379][497]LogInit: FAudioDevice initialized.
+[2016.06.30-14.22.24:431][497]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.22.24:434][497]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.22.24
+[2016.06.30-14.22.24:434][497]LogWorld: Bringing up level for play took: 0.002236
+[2016.06.30-14.22.24:436][497]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.001
+[2016.06.30-14.22.42:612][385]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.30-14.22.42:617][385]LogPlayLevel: [PlayLevel] Compiling cell2_Sprite_Blueprint before play...
+[2016.06.30-14.22.42:694][385]LogPlayLevel: PlayLevel: Blueprint regeneration took 82 ms (1 blueprints)
+[2016.06.30-14.22.42:711][385]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:22:42 AM)
+[2016.06.30-14.22.42:711][385]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.22.42:713][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001725s)
+[2016.06.30-14.22.42:713][385]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.22.42:713][385]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2016.06.30-14.22.42:714][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002577s)
+[2016.06.30-14.22.42:732][385]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.22.42:740][385]LogInit: FAudioDevice initialized.
+[2016.06.30-14.22.42:790][385]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.22.42:793][385]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.22.42
+[2016.06.30-14.22.42:793][385]LogWorld: Bringing up level for play took: 0.002710
+[2016.06.30-14.22.42:795][385]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.36
+[2016.06.30-14.22.51:897][335]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.30-14.22.51:903][335]LogPlayLevel: [PlayLevel] Compiling cell2_Sprite_Blueprint before play...
+[2016.06.30-14.22.51:983][335]LogPlayLevel: PlayLevel: Blueprint regeneration took 86 ms (1 blueprints)
+[2016.06.30-14.22.52:000][335]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:22:52 AM)
+[2016.06.30-14.22.52:000][335]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.22.52:002][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001367s)
+[2016.06.30-14.22.52:002][335]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.22.52:002][335]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2016.06.30-14.22.52:002][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002064s)
+[2016.06.30-14.22.52:020][335]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.22.52:029][335]LogInit: FAudioDevice initialized.
+[2016.06.30-14.22.52:085][335]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.22.52:087][335]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.22.52
+[2016.06.30-14.22.52:088][335]LogWorld: Bringing up level for play took: 0.002382
+[2016.06.30-14.22.52:089][335]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu -0.345
+[2016.06.30-14.23.10:695][111]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.30-14.23.10:701][111]LogPlayLevel: [PlayLevel] Compiling cell2_Sprite_Blueprint before play...
+[2016.06.30-14.23.10:774][111]LogPlayLevel: PlayLevel: Blueprint regeneration took 79 ms (1 blueprints)
+[2016.06.30-14.23.10:792][111]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:23:10 AM)
+[2016.06.30-14.23.10:792][111]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.23.10:794][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001331s)
+[2016.06.30-14.23.10:794][111]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.23.10:794][111]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2016.06.30-14.23.10:795][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002416s)
+[2016.06.30-14.23.10:812][111]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.23.10:820][111]LogInit: FAudioDevice initialized.
+[2016.06.30-14.23.10:874][111]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.23.10:877][111]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.23.10
+[2016.06.30-14.23.10:877][111]LogWorld: Bringing up level for play took: 0.002216
+[2016.06.30-14.23.10:879][111]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.444
+[2016.06.30-14.23.18:924][881]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.30-14.23.18:929][881]LogPlayLevel: [PlayLevel] Compiling cell2_Sprite_Blueprint before play...
+[2016.06.30-14.23.19:006][881]LogPlayLevel: PlayLevel: Blueprint regeneration took 81 ms (1 blueprints)
+[2016.06.30-14.23.19:022][881]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:23:19 AM)
+[2016.06.30-14.23.19:031][881]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.23.19:033][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001243s)
+[2016.06.30-14.23.19:033][881]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.23.19:033][881]LogPlayLevel: PIE: World Init took: (0.000485s)
+[2016.06.30-14.23.19:033][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.001942s)
+[2016.06.30-14.23.19:053][881]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.23.19:059][881]LogInit: FAudioDevice initialized.
+[2016.06.30-14.23.19:109][881]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.23.19:111][881]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.23.19
+[2016.06.30-14.23.19:112][881]LogWorld: Bringing up level for play took: 0.002310
+[2016.06.30-14.23.19:113][881]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.678
+[2016.06.30-14.23.28:355][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-14.23.28:355][802]PIE: New page: PIE session: HomeMenu (Jun 30, 2016, 3:23:28 AM)
+[2016.06.30-14.23.28:355][802]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_HomeMenu
+[2016.06.30-14.23.28:357][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001276s)
+[2016.06.30-14.23.28:357][802]LogAIModule: Creating AISystem for world HomeMenu
+[2016.06.30-14.23.28:357][802]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2016.06.30-14.23.28:357][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HomeMenu.HomeMenu to /Game/UEDPIE_0_HomeMenu.HomeMenu (0.002000s)
+[2016.06.30-14.23.28:375][802]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-14.23.28:381][802]LogInit: FAudioDevice initialized.
+[2016.06.30-14.23.28:431][802]LogWorld: Game class is 'Mouse_GameMode_C'
+[2016.06.30-14.23.28:434][802]LogWorld: Bringing World /Game/UEDPIE_0_HomeMenu.HomeMenu up for play (max tick rate 0) at 2016.06.30-09.23.28
+[2016.06.30-14.23.28:434][802]LogWorld: Bringing up level for play took: 0.002419
+[2016.06.30-14.23.28:435][802]PIE: Info Play in editor start time for /Game/UEDPIE_0_HomeMenu 0.001
+[2016.06.30-14.23.44:912][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HomeMenu" FILE="C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.30-14.23.45:160][394]LogSavePackage: Save=158.32ms
+[2016.06.30-14.23.45:160][394]LogSavePackage: Moving 'C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/HomeMenu00CACFC844A7D8B260B641B03F087A66.tmp' to 'C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap'
+[2016.06.30-14.23.45:224][394]LogSavePackage:Display: Finished SavePackage C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap
+[2016.06.30-14.23.45:272][394]LogFileHelpers: Saving map 'HomeMenu' took 0.531
+[2016.06.30-14.23.45:274][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cell2_Sprite_Blueprint" FILE="C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/cell2_Sprite_Blueprint.uasset" SILENT=true
+[2016.06.30-14.23.45:323][394]LogSavePackage: Save=37.91ms
+[2016.06.30-14.23.45:323][394]LogSavePackage: Moving 'C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/cell2_Sprite_BlueprintB13D109A409A34403F0FE8A2A98D1F08.tmp' to 'C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/cell2_Sprite_Blueprint.uasset'
+[2016.06.30-14.23.45:325][394]LogSavePackage:Display: Finished SavePackage C:/Users/JohnGarth/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/cell2_Sprite_Blueprint.uasset
+[2016.06.30-14.24.40:847][340]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.30-14.24.41:182][341]Cmd: QUIT_EDITOR
+[2016.06.30-14.24.42:476][341]LogExit: Preparing to exit.
+[2016.06.30-14.24.43:825][341]LogExit: Editor shut down
+[2016.06.30-14.24.43:826][341]LogExit: Transaction tracking system shut down
+[2016.06.30-14.24.49:077][341]LogObj: Freed 0b from 0 cluster array pools.
+[2016.06.30-14.24.49:077][341]LogExit: Object subsystem successfully closed.
+[2016.06.30-14.24.49:335][341]LogD3D11RHI: Shutdown
+[2016.06.30-14.24.49:342][341]LogD3D11RHI: CleanupD3DDevice
+[2016.06.30-14.24.49:489][341]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.30-14.24.50:587][341]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.06.30-14.24.50:594][341]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (213)
+[2016.06.30-14.24.50:594][341]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (212)
+[2016.06.30-14.24.50:605][341]LogModuleManager: Shutting down and abandoning module CrashTracker (211)
+[2016.06.30-14.24.50:605][341]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.06.30-14.24.50:634][341]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.06.30-14.24.50:663][341]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.06.30-14.24.50:663][341]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.06.30-14.24.50:663][341]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.06.30-14.24.50:667][341]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.06.30-14.24.50:682][341]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.06.30-14.24.50:682][341]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.06.30-14.24.50:701][341]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.06.30-14.24.50:701][341]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.06.30-14.24.50:701][341]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.06.30-14.24.50:701][341]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.06.30-14.24.50:701][341]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.06.30-14.24.50:717][341]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.06.30-14.24.50:730][341]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.06.30-14.24.50:730][341]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.06.30-14.24.50:748][341]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.06.30-14.24.50:748][341]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.06.30-14.24.50:770][341]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.06.30-14.24.50:782][341]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.06.30-14.24.50:852][341]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.06.30-14.24.50:852][341]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.06.30-14.24.50:852][341]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.06.30-14.24.50:852][341]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.06.30-14.24.50:852][341]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.06.30-14.24.50:876][341]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.06.30-14.24.50:892][341]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.06.30-14.24.50:898][341]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.06.30-14.24.50:898][341]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.06.30-14.24.50:906][341]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.06.30-14.24.50:906][341]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.06.30-14.24.51:297][341]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.06.30-14.24.51:297][341]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.06.30-14.24.51:297][341]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.06.30-14.24.51:297][341]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.06.30-14.24.51:320][341]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.06.30-14.24.51:320][341]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.06.30-14.24.51:341][341]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.06.30-14.24.51:342][341]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.06.30-14.24.51:360][341]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.06.30-14.24.51:364][341]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.06.30-14.24.51:364][341]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.06.30-14.24.51:379][341]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.06.30-14.24.51:391][341]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.06.30-14.24.51:391][341]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.06.30-14.24.51:421][341]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.06.30-14.24.51:437][341]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.06.30-14.24.51:448][341]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.06.30-14.24.51:448][341]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.06.30-14.24.51:476][341]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.06.30-14.24.51:476][341]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.06.30-14.24.51:508][341]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.06.30-14.24.51:525][341]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.06.30-14.24.51:544][341]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.06.30-14.24.51:572][341]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.06.30-14.24.51:581][341]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.06.30-14.24.51:642][341]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.06.30-14.24.51:651][341]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.06.30-14.24.51:660][341]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.06.30-14.24.51:676][341]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.06.30-14.24.51:676][341]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.06.30-14.24.51:694][341]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.06.30-14.24.51:714][341]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.06.30-14.24.51:762][341]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.06.30-14.24.51:769][341]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.06.30-14.24.51:769][341]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.06.30-14.24.51:785][341]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.06.30-14.24.51:795][341]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.06.30-14.24.51:825][341]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.06.30-14.24.51:853][341]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.06.30-14.24.51:853][341]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.06.30-14.24.51:877][341]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.06.30-14.24.51:877][341]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.06.30-14.24.51:877][341]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.06.30-14.24.51:878][341]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.06.30-14.24.51:878][341]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.06.30-14.24.51:878][341]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.06.30-14.24.51:878][341]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.06.30-14.24.51:878][341]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.06.30-14.24.51:883][341]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.06.30-14.24.51:896][341]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.06.30-14.24.51:896][341]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.06.30-14.24.52:123][341]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.06.30-14.24.52:144][341]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.06.30-14.24.52:144][341]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.06.30-14.24.52:144][341]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.06.30-14.24.52:144][341]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.06.30-14.24.52:144][341]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.06.30-14.24.52:144][341]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.06.30-14.24.52:144][341]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.06.30-14.24.52:144][341]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.06.30-14.24.52:144][341]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.06.30-14.24.52:144][341]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.06.30-14.24.52:164][341]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.06.30-14.24.52:164][341]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.06.30-14.24.52:164][341]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.06.30-14.24.52:164][341]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.06.30-14.24.52:164][341]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.06.30-14.24.52:198][341]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.06.30-14.24.52:199][341]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.06.30-14.24.52:228][341]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.06.30-14.24.52:243][341]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.06.30-14.24.52:243][341]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.06.30-14.24.52:254][341]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.06.30-14.24.52:297][341]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.06.30-14.24.52:322][341]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.06.30-14.24.52:322][341]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.06.30-14.24.52:322][341]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.06.30-14.24.52:329][341]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.06.30-14.24.52:330][341]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.06.30-14.24.52:338][341]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.06.30-14.24.52:361][341]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.06.30-14.24.52:372][341]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.06.30-14.24.52:392][341]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.06.30-14.24.52:442][341]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.06.30-14.24.52:443][341]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.06.30-14.24.52:474][341]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.06.30-14.24.52:574][341]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.06.30-14.24.52:574][341]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.06.30-14.24.52:588][341]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.06.30-14.24.52:588][341]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.06.30-14.24.52:588][341]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.06.30-14.24.52:604][341]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.06.30-14.24.52:604][341]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.06.30-14.24.52:617][341]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.06.30-14.24.52:617][341]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.06.30-14.24.52:617][341]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.06.30-14.24.52:715][341]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.06.30-14.24.52:715][341]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.06.30-14.24.52:715][341]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.06.30-14.24.52:763][341]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.06.30-14.24.52:763][341]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.06.30-14.24.52:773][341]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.06.30-14.24.52:791][341]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.06.30-14.24.52:791][341]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.06.30-14.24.52:791][341]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.06.30-14.24.52:815][341]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.06.30-14.24.52:847][341]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.06.30-14.24.52:879][341]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.06.30-14.24.52:897][341]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.06.30-14.24.52:897][341]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.06.30-14.24.52:899][341]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.06.30-14.24.52:899][341]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.06.30-14.24.52:899][341]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.06.30-14.24.52:899][341]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.06.30-14.24.52:899][341]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.06.30-14.24.52:899][341]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.06.30-14.24.52:900][341]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.06.30-14.24.52:994][341]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.06.30-14.24.52:994][341]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.06.30-14.24.53:004][341]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.06.30-14.24.53:034][341]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.06.30-14.24.53:125][341]LogDerivedDataCache: Shutdown
+[2016.06.30-14.24.53:125][341]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.06.30-14.24.53:144][341]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.06.30-14.24.53:179][341]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.06.30-14.24.53:183][341]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.06.30-14.24.53:211][341]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.06.30-14.24.53:211][341]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.06.30-14.24.53:223][341]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.06.30-14.24.53:230][341]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.06.30-14.24.53:244][341]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.06.30-14.24.53:244][341]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.06.30-14.24.53:244][341]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.06.30-14.24.53:244][341]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.06.30-14.24.53:259][341]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.06.30-14.24.53:267][341]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.06.30-14.24.53:277][341]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.06.30-14.24.53:277][341]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.06.30-14.24.53:292][341]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.06.30-14.24.53:297][341]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.06.30-14.24.53:297][341]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.30-14.24.53:297][341]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.30-14.24.53:297][341]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.30-14.24.53:297][341]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.30-14.24.53:297][341]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.30-14.24.53:302][341]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.30-14.24.53:302][341]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.30-14.24.53:302][341]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.30-14.24.53:302][341]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.30-14.24.53:302][341]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.30-14.24.53:302][341]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.30-14.24.53:302][341]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.30-14.24.53:302][341]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.30-14.24.53:315][341]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.30-14.24.53:329][341]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.30-14.24.53:330][341]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.30-14.24.53:330][341]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.30-14.24.53:343][341]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.30-14.24.53:343][341]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.30-14.24.53:343][341]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.30-14.24.53:376][341]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.30-14.24.54:878][341]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.30-14.24.54:883][341]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.30-14.24.54:895][341]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.30-14.24.54:895][341]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.30-14.24.54:903][341]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.30-14.24.54:903][341]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.30-14.24.54:903][341]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.30-14.24.54:933][341]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.30-14.24.54:965][341]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.30-14.24.54:965][341]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.30-14.24.54:965][341]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.30-14.24.54:965][341]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.30-14.24.54:965][341]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.30-14.24.54:965][341]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.30-14.24.54:992][341]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.30-14.24.55:005][341]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.30-14.24.55:019][341]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.30-14.24.55:051][341]LogExit: Exiting.
+[2016.06.30-14.24.55:052][341]Log file closed, 06/30/16 09:24:55
