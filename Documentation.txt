@@ -1,3 +1,8 @@
+June 28 - July 7
+What I've Done:
+Research inter-blueprint communication
+Merge branches and ironed out errors
+
 John Garth - June 23 - 28
 What I've Done:
 Added randomized blinking
