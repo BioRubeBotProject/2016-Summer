@@ -1,9 +1,9 @@
-﻿Log file open, 07/07/16 19:59:32
+﻿Log file open, 07/07/16 20:37:01
 LogInit:Display: Running engine for game: BIO_RUBE_V1
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-31174767) SRandInit(-31174766).
+LogInit:Display: RandInit(-706333318) SRandInit(-706333316).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.073269
+LogStats: Stats thread started at 0.077069
 LogInit: Version: 4.12.4-3028348+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3028348
@@ -44,131 +44,131 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.07.08-00.59.32:903][  0]LogInit: Selected Device Profile: [Windows]
-[2016.07.08-00.59.32:903][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.07.08-00.59.32:910][  0]LogInit: Computer: MATT-PC
-[2016.07.08-00.59.32:910][  0]LogInit: User: Matt
-[2016.07.08-00.59.32:910][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.07.08-00.59.32:910][  0]LogInit: High frequency timer resolution =3.519843 MHz
-[2016.07.08-00.59.32:910][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.07.08-00.59.32:910][  0]LogMemory: Platform Memory Stats for Windows
-[2016.07.08-00.59.32:910][  0]LogMemory: Process Physical Memory: 189.72 MB used, 189.72 MB peak
-[2016.07.08-00.59.32:910][  0]LogMemory: Process Virtual Memory: 196.38 MB used, 196.38 MB peak
-[2016.07.08-00.59.32:910][  0]LogMemory: Physical Memory: 3955.79 MB used, 8132.21 MB total
-[2016.07.08-00.59.32:910][  0]LogMemory: Virtual Memory: 524.18 MB used, 8388608.00 MB total
-[2016.07.08-00.59.32:937][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.07.08-00.59.33:236][  0]LogD3D11RHI: D3D11 adapters:
-[2016.07.08-00.59.33:249][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
-[2016.07.08-00.59.33:249][  0]LogD3D11RHI:       1970/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2016.07.08-00.59.33:249][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.07.08-00.59.33:252][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.07.08-00.59.33:252][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
-[2016.07.08-00.59.33:252][  0]LogWindows: EnumDisplayDevices:
-[2016.07.08-00.59.33:253][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
-[2016.07.08-00.59.33:253][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
-[2016.07.08-00.59.33:253][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
-[2016.07.08-00.59.33:253][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
-[2016.07.08-00.59.33:253][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2016.07.08-00.59.33:253][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2016.07.08-00.59.33:253][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2016.07.08-00.59.33:253][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2016.07.08-00.59.33:253][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
-[2016.07.08-00.59.33:253][  0]LogD3D11RHI:   Driver Version: 358.91 (internal:10.18.13.5891, unified:358.91)
-[2016.07.08-00.59.33:253][  0]LogD3D11RHI:      Driver Date: 11-5-2015
-[2016.07.08-00.59.33:253][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.07.08-00.59.33:261][  0]LogD3D11RHI: Async texture creation enabled
-[2016.07.08-00.59.33:274][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2016.07.08-00.59.33:274][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Intermediate/Shaders/WorkingDirectory/4740/).
-[2016.07.08-00.59.33:274][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matt/AppData/Local/Temp/UnrealShaderWorkingDir/8F8465EA435A0827921F3BBC9FA9EC2C/'.
-[2016.07.08-00.59.33:274][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.07.08-00.59.33:959][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.07.08-00.59.33:966][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.07.08-00.59.33:973][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.07.08-00.59.33:980][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.07.08-00.59.33:987][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.07.08-00.59.33:993][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.07.08-00.59.33:999][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.07.08-00.59.34:005][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.07.08-00.59.34:011][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.07.08-00.59.34:017][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.07.08-00.59.34:023][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.07.08-00.59.34:035][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.07.08-00.59.34:035][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.07.08-00.59.34:035][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.07.08-00.59.34:053][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.07.08-00.59.34:058][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.07.08-00.59.34:064][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.07.08-00.59.34:069][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.07.08-00.59.34:075][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.07.08-00.59.34:075][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.07.08-00.59.34:130][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.07.08-00.59.34:176][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/Matt/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.07.08-00.59.34:176][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2016.07.08-00.59.34:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.07.08-00.59.34:176][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.07.08-00.59.34:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.07.08-00.59.34:176][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.07.08-00.59.34:190][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.07.08-00.59.34:201][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.07.08-00.59.34:331][  0]LogInit: Selected Device Profile: [Windows]
-[2016.07.08-00.59.34:332][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.07.08-00.59.34:449][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.07.08-00.59.34:449][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.07.08-00.59.34:449][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.07.08-00.59.34:644][  0]LogAssetRegistry: FAssetRegistry took 0.0202 seconds to start up
-[2016.07.08-00.59.34:671][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025306 seconds
-[2016.07.08-00.59.34:675][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2016.07.08-00.59.34:675][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
-[2016.07.08-00.59.34:675][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.07.08-00.59.34:681][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.07.08-00.59.34:813][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.07.08-00.59.34:813][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.07.08-00.59.35:298][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.07.08-00.59.35:494][  0]SourceControl: Info Source control is disabled
-[2016.07.08-00.59.35:996][  0]LogEngine: Initializing Engine...
-[2016.07.08-00.59.35:997][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.07.08-00.59.35:997][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.07.08-00.59.36:100][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.07.08-00.59.36:104][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.07.08-00.59.36:127][  0]LogInit: FAudioDevice initialized.
-[2016.07.08-00.59.36:151][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Matt/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.07.08-00.59.36:156][  0]LogInit: Texture streaming: Enabled
-[2016.07.08-00.59.36:172][  0]LogInit: Transaction tracking system initialized
-[2016.07.08-00.59.36:190][  0]BlueprintLog: New page: Editor Load
-[2016.07.08-00.59.36:246][  0]LocalizationService: Info Localization service is disabled
-[2016.07.08-00.59.36:293][  0]LogConsoleResponse:Display: 
-[2016.07.08-00.59.36:386][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.07.08-00.59.36:386][  0]LogCook:Display: Mobile HDR setting 1
-[2016.07.08-00.59.36:536][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/' took 0.02s
-[2016.07.08-00.59.36:536][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.07.08-00.59.36:537][  0]LightingResults: New page: Lighting Build
-[2016.07.08-00.59.36:546][  0]MapCheck: New page: Map Check
-[2016.07.08-00.59.36:546][  0]LightingResults: New page: Lighting Build
-[2016.07.08-00.59.36:793][  0]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
-[2016.07.08-00.59.36:795][  0]LogBlueprint:Warning: Compiler Warning [0004.66] Compile of info_Sprite_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms] (/Game/info_Sprite_Blueprint.info_Sprite_Blueprint)
-[2016.07.08-00.59.36:795][  0]LogBlueprint:Warning: Compiler Warning [0004.66] Compile of info_Sprite_Blueprint failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/info_Sprite_Blueprint.info_Sprite_Blueprint)
-[2016.07.08-00.59.36:795][  0]LogBlueprint:Warning: Compiler Warning [0004.66] Compile of info_Sprite_Blueprint failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/info_Sprite_Blueprint.info_Sprite_Blueprint)
-[2016.07.08-00.59.37:581][  0]LogAIModule: Creating AISystem for world HomeMenu
-[2016.07.08-00.59.37:584][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.07.08-00.59.37:584][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.07.08-00.59.37:614][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.915ms to complete.
-[2016.07.08-00.59.37:614][  0]LogFileHelpers: Loading map 'HomeMenu' took 1.079
-[2016.07.08-00.59.37:958][  0]LogCollectionManager: Loaded 1 collections in 0.002106 seconds
-[2016.07.08-00.59.37:994][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Collections/' took 0.01s
-[2016.07.08-00.59.37:994][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Developers/Matt/Collections/' took 0.01s
-[2016.07.08-00.59.37:994][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Collections/' took 0.01s
-[2016.07.08-00.59.37:994][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
-[2016.07.08-00.59.37:994][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
-[2016.07.08-00.59.38:001][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2047 classes and 369 folders.
-[2016.07.08-00.59.38:005][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.07.08-00.59.38:005][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.07.08-00.59.38:006][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2016.07.08-00.59.38:011][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.07.08-00.59.38:915][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2016.07.08-00.59.38:935][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.07.08-00.59.38:994][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.07.08-00.59.38:998][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.07.08-00.59.39:022][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.07.08-00.59.39:022][  0]LogLoad: Full Startup: 6.89 seconds (BP compile: 0.04 seconds)
-[2016.07.08-00.59.39:022][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.07.08-00.59.
+[2016.07.08-01.37.01:348][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.08-01.37.01:348][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.08-01.37.01:354][  0]LogInit: Computer: MATT-PC
+[2016.07.08-01.37.01:354][  0]LogInit: User: Matt
+[2016.07.08-01.37.01:354][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.07.08-01.37.01:354][  0]LogInit: High frequency timer resolution =3.519843 MHz
+[2016.07.08-01.37.01:354][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.07.08-01.37.01:354][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.08-01.37.01:354][  0]LogMemory: Process Physical Memory: 189.76 MB used, 189.76 MB peak
+[2016.07.08-01.37.01:355][  0]LogMemory: Process Virtual Memory: 196.40 MB used, 196.40 MB peak
+[2016.07.08-01.37.01:355][  0]LogMemory: Physical Memory: 3534.00 MB used, 8132.21 MB total
+[2016.07.08-01.37.01:355][  0]LogMemory: Virtual Memory: 524.18 MB used, 8388608.00 MB total
+[2016.07.08-01.37.01:382][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.08-01.37.01:682][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.08-01.37.01:694][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
+[2016.07.08-01.37.01:694][  0]LogD3D11RHI:       1970/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.07.08-01.37.01:694][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.08-01.37.01:697][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.08-01.37.01:697][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
+[2016.07.08-01.37.01:697][  0]LogWindows: EnumDisplayDevices:
+[2016.07.08-01.37.01:697][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
+[2016.07.08-01.37.01:697][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2016.07.08-01.37.01:697][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2016.07.08-01.37.01:697][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2016.07.08-01.37.01:697][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.07.08-01.37.01:698][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.07.08-01.37.01:698][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.07.08-01.37.01:698][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.07.08-01.37.01:698][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
+[2016.07.08-01.37.01:698][  0]LogD3D11RHI:   Driver Version: 358.91 (internal:10.18.13.5891, unified:358.91)
+[2016.07.08-01.37.01:698][  0]LogD3D11RHI:      Driver Date: 11-5-2015
+[2016.07.08-01.37.01:698][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.08-01.37.01:705][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.08-01.37.01:718][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.07.08-01.37.01:718][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Intermediate/Shaders/WorkingDirectory/7900/).
+[2016.07.08-01.37.01:718][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matt/AppData/Local/Temp/UnrealShaderWorkingDir/0B0A4A9D4A2520E15AA7FC9C53B9141C/'.
+[2016.07.08-01.37.01:718][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.08-01.37.02:411][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.08-01.37.02:419][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.08-01.37.02:426][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.08-01.37.02:434][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.08-01.37.02:442][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.08-01.37.02:448][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.08-01.37.02:454][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.08-01.37.02:461][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.08-01.37.02:467][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.08-01.37.02:473][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.08-01.37.02:479][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.08-01.37.02:491][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.08-01.37.02:491][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.08-01.37.02:492][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.08-01.37.02:510][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.08-01.37.02:515][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.08-01.37.02:521][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.08-01.37.02:527][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.08-01.37.02:533][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.08-01.37.02:533][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.08-01.37.02:589][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.08-01.37.02:630][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/Matt/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.08-01.37.02:630][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.07.08-01.37.02:630][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.08-01.37.02:630][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.08-01.37.02:630][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.08-01.37.02:630][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.08-01.37.02:644][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.08-01.37.02:655][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.08-01.37.02:785][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.08-01.37.02:786][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.08-01.37.02:904][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.08-01.37.02:904][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.08-01.37.02:904][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.08-01.37.03:096][  0]LogAssetRegistry: FAssetRegistry took 0.0200 seconds to start up
+[2016.07.08-01.37.03:125][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.027065 seconds
+[2016.07.08-01.37.03:129][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.07.08-01.37.03:129][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.07.08-01.37.03:129][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.08-01.37.03:135][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.08-01.37.03:266][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.08-01.37.03:266][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.08-01.37.03:754][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.08-01.37.03:956][  0]SourceControl: Info Source control is disabled
+[2016.07.08-01.37.04:474][  0]LogEngine: Initializing Engine...
+[2016.07.08-01.37.04:474][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.08-01.37.04:475][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.08-01.37.04:583][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.08-01.37.04:587][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.08-01.37.04:609][  0]LogInit: FAudioDevice initialized.
+[2016.07.08-01.37.04:637][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Matt/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.08-01.37.04:642][  0]LogInit: Texture streaming: Enabled
+[2016.07.08-01.37.04:658][  0]LogInit: Transaction tracking system initialized
+[2016.07.08-01.37.04:675][  0]BlueprintLog: New page: Editor Load
+[2016.07.08-01.37.04:730][  0]LocalizationService: Info Localization service is disabled
+[2016.07.08-01.37.04:776][  0]LogConsoleResponse:Display: 
+[2016.07.08-01.37.04:848][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.08-01.37.04:848][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.08-01.37.04:875][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/' took 0.01s
+[2016.07.08-01.37.05:002][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/HomeMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.08-01.37.05:004][  0]LightingResults: New page: Lighting Build
+[2016.07.08-01.37.05:013][  0]MapCheck: New page: Map Check
+[2016.07.08-01.37.05:013][  0]LightingResults: New page: Lighting Build
+[2016.07.08-01.37.05:189][  0]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2016.07.08-01.37.05:190][  0]LogBlueprint:Warning: Compiler Warning [0004.43] Compile of info_Sprite_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms] (/Game/info_Sprite_Blueprint.info_Sprite_Blueprint)
+[2016.07.08-01.37.05:190][  0]LogBlueprint:Warning: Compiler Warning [0004.43] Compile of info_Sprite_Blueprint failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/info_Sprite_Blueprint.info_Sprite_Blueprint)
+[2016.07.08-01.37.05:190][  0]LogBlueprint:Warning: Compiler Warning [0004.43] Compile of info_Sprite_Blueprint failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/info_Sprite_Blueprint.info_Sprite_Blueprint)
+[2016.07.08-01.37.05:272][  0]LogAIModule: Creating AISystem for world HomeMenu
+[2016.07.08-01.37.05:275][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.08-01.37.05:275][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.08-01.37.05:303][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.994ms to complete.
+[2016.07.08-01.37.05:303][  0]LogFileHelpers: Loading map 'HomeMenu' took 0.301
+[2016.07.08-01.37.05:439][  0]LogCollectionManager: Loaded 1 collections in 0.001597 seconds
+[2016.07.08-01.37.05:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Saved/Collections/' took 0.01s
+[2016.07.08-01.37.05:474][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Developers/Matt/Collections/' took 0.01s
+[2016.07.08-01.37.05:474][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/2016-Summer/BIO_RUBE_V1 4.12/Content/Collections/' took 0.01s
+[2016.07.08-01.37.05:474][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2016.07.08-01.37.05:474][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.07.08-01.37.05:479][  0]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 2047 classes and 369 folders.
+[2016.07.08-01.37.05:482][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.08-01.37.05:482][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.08-01.37.05:483][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.07.08-01.37.05:487][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.07.08-01.37.05:513][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.07.08-01.37.05:516][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.07.08-01.37.05:526][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.08-01.37.05:529][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.08-01.37.05:551][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.07.08-01.37.05:552][  0]LogLoad: Full Startup: 4.79 seconds (BP compile: 0.05 seconds)
+[2016.07.08-01.37.05:552][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.07.08-01.3
