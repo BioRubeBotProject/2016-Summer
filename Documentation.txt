@@ -1,3 +1,21 @@
+June 28 - July 7
+What I've Done:
+Research inter-blueprint communication
+Merge branches and ironed out errors
+
+John Garth - June 23 - 28
+What I've Done:
+Added randomized blinking
+*Note - Removed widget cells and replaced with sprites due to blueprinting
+        for blinking cells.
+
+What Needs to be done:
+Alter the blinking so that no cells blink at the same time.
+Clean up the delay between blinks.
+Add green hover over button
+Get running on iPad
+
+
 John Garth - June 16
 
 What I've Done:
