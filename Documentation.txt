@@ -1,3 +1,15 @@
+Jul 7 - 12
+What I've Done:
+Removed Unnecessary Starter Content Files
+Added new level specifically for the sandbox 'Game'
+Added beginning drag functionality for the cell pieces
+
+What needs to be done:
+I got stuck on an error where when dragged, the widget spawns in the
+top left corner of the screen then swings to the mouse's location.
+The widget needs to spawn on the mouse's location when it is being dragged.
+I've googled and could not find much help.
+
 June 28 - July 7
 What I've Done:
 Research inter-blueprint communication
