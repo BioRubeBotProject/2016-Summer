@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+=======
+July 14
+What I've Done:
+Finished Drag/Drop Functionality
+
+What needs to be done:
+When dropped the widget is placed on the location of the cursor starting 
+at the top left corner of the widget's total area. So it does not appear 
+to be dropping in the exact spot the click is released. There needs to be 
+an offset or something like this to compensate for it.
+
+Jul 7 - 12
+What I've Done:
+Removed Unnecessary Starter Content Files
+Added new level specifically for the sandbox 'Game'
+Added beginning drag functionality for the cell pieces
+
+What needs to be done:
+I got stuck on an error where when dragged, the widget spawns in the
+top left corner of the screen then swings to the mouse's location.
+The widget needs to spawn on the mouse's location when it is being dragged.
+I've googled and could not find much help.
+
+>>>>>>> refs/remotes/origin/Aidan's_Branch
 June 28 - July 7
 What I've Done:
 Research inter-blueprint communication
